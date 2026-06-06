@@ -639,3 +639,139 @@ Verification results:
 - No linter errors found.
 - No other file was modified.
 ```
+
+## Entry 4 – AI Explanation Drafts for Hallucination Checking
+
+- **Timestamp:** 15:04 06/06/2026
+- **AI tool used:** Cursor IDE with OpenAI API key (gpt-5.5)
+- **Files attached / used:** None
+
+### Prompt
+
+```text
+For each of the 20 defects listed below, provide a brief explanation 
+(3-5 sentences) covering: what caused it, how it was exploited, 
+and what the real-world impact was.
+
+Be concise. Do not add information beyond what is commonly documented 
+in official advisories or credible security sources.
+
+1. CVE-2022-1388 – F5 BIG-IP iControl REST Authentication Bypass
+2. CVE-2022-22965 – Spring4Shell
+3. CVE-2022-30190 – Follina (Microsoft MSDT)
+4. CVE-2022-41040 + CVE-2022-41082 – ProxyNotShell (Microsoft Exchange)
+5. CVE-2023-20198 – Cisco IOS XE Web UI Auth Bypass
+6. CVE-2023-23397 – Microsoft Outlook NTLM Credential Theft
+7. CVE-2023-34362 – MOVEit Transfer SQL Injection
+8. CVE-2023-44487 – HTTP/2 Rapid Reset DDoS
+9. CVE-2023-46805 + CVE-2024-21887 – Ivanti Connect Secure Zero-Days
+10. CVE-2024-21762 – Fortinet FortiOS SSL-VPN Out-of-Bounds Write
+11. CVE-2024-3094 – XZ Utils Supply-Chain Backdoor
+12. CVE-2024-38094 – Microsoft SharePoint Server RCE
+13. ChatGPT GDPR Privacy Breach (March 2023)
+14. Samsung Confidential Data Leak via ChatGPT (April 2023)
+15. CVE-2025-32711 – EchoLeak (Microsoft 365 Copilot)
+16. Bing Chat "Sydney" Prompt Injection (February 2023)
+17. ChatGPT Legal Hallucination – Mata v. Avianca (May 2023)
+18. Air Canada Chatbot Hallucination – Bereavement Fare (2024)
+19. AI Hiring Tool Algorithmic Bias (2023–2025)
+20. ChatGPT RAG/Memory Poisoning & Indirect Prompt Injection (2024)
+```
+
+### AI output
+
+```text
+1. CVE-2022-1388 – F5 BIG-IP iControl REST Authentication Bypass
+This defect was caused by improper authentication handling in the F5 BIG-IP iControl REST interface. Attackers exploited it by sending specially crafted HTTP requests with manipulated headers to bypass authentication. Once inside, they could execute commands with root privileges on affected BIG-IP devices. The real-world impact was severe because exposed load balancers and application delivery controllers could be fully taken over.
+
+2. CVE-2022-22965 – Spring4Shell
+Spring4Shell was caused by unsafe data binding behavior in the Spring Framework when used with certain Java and Tomcat configurations. Attackers exploited it by crafting requests that manipulated class loader properties and wrote a web shell to the server. This allowed remote code execution on vulnerable applications. The impact was high because many enterprise Java web applications used Spring.
+
+3. CVE-2022-30190 – Follina (Microsoft MSDT)
+Follina was caused by Microsoft Office documents being able to invoke the Microsoft Support Diagnostic Tool through the ms-msdt: protocol handler. Attackers exploited it by sending malicious Office or RTF files that triggered remote template loading and PowerShell execution. It did not require macros, which made it harder for users to recognize as dangerous. The impact included malware delivery, ransomware campaigns, and remote code execution on Windows systems.
+
+4. CVE-2022-41040 + CVE-2022-41082 – ProxyNotShell (Microsoft Exchange)
+ProxyNotShell involved two chained Microsoft Exchange vulnerabilities: an authenticated SSRF flaw and a remote code execution flaw through Exchange PowerShell. Attackers first needed valid credentials, then used the SSRF bug to reach internal Exchange functionality and trigger code execution. Exploitation allowed attackers to compromise Exchange servers, install backdoors, and steal data. The real-world impact was serious because Exchange servers are high-value enterprise infrastructure.
+
+5. CVE-2023-20198 – Cisco IOS XE Web UI Auth Bypass
+This defect was caused by an authentication bypass in the Cisco IOS XE Web UI feature. Attackers exploited it by accessing the web management interface without valid credentials and creating a high-privilege local user. In observed attacks, it was combined with another flaw to gain deeper control of the device. The impact was widespread compromise of routers and switches, with many devices found implanted with backdoors.
+
+6. CVE-2023-23397 – Microsoft Outlook NTLM Credential Theft
+This vulnerability was caused by Outlook automatically processing a specially crafted message property that pointed to an attacker-controlled SMB server. Attackers exploited it by sending a malicious calendar invite or email that triggered an NTLM authentication attempt without user interaction. This leaked the victim’s Net-NTLMv2 hash. The impact was credential theft, enabling pass-the-hash attacks or offline password cracking.
+
+7. CVE-2023-34362 – MOVEit Transfer SQL Injection
+This defect was caused by SQL injection in Progress MOVEit Transfer’s web-facing request handling. Attackers exploited it by sending malicious requests that allowed unauthorized database access and deployment of a web shell. The Cl0p ransomware group used it in a large-scale data theft campaign. The real-world impact was massive, affecting thousands of organizations and tens of millions of individuals.
+
+8. CVE-2023-44487 – HTTP/2 Rapid Reset DDoS
+This issue was caused by how HTTP/2 handles stream creation and cancellation. Attackers exploited it by rapidly opening streams and immediately resetting them, forcing servers to do work while the attacker spent little effort. This created an asymmetric denial-of-service condition. The impact was record-breaking DDoS attacks affecting major cloud providers, CDNs, and HTTP/2-capable web servers.
+
+9. CVE-2023-46805 + CVE-2024-21887 – Ivanti Connect Secure Zero-Days
+These defects involved an authentication bypass and command injection vulnerability in Ivanti Connect Secure and Ivanti Policy Secure gateways. Attackers chained them to gain unauthenticated remote code execution on VPN appliances. Exploitation was observed before public disclosure, including activity linked to advanced threat actors. The impact was serious because compromised VPN gateways can provide persistent access into enterprise networks.
+
+10. CVE-2024-21762 – Fortinet FortiOS SSL-VPN Out-of-Bounds Write
+This vulnerability was caused by an out-of-bounds write issue in Fortinet FortiOS SSL-VPN functionality. Attackers could exploit it remotely by sending crafted requests to affected SSL-VPN services. Successful exploitation could allow arbitrary code or command execution. The impact was critical because FortiGate devices often sit at the network perimeter and protect enterprise access.
+
+11. CVE-2024-3094 – XZ Utils Supply-Chain Backdoor
+This defect was caused by a malicious backdoor intentionally inserted into XZ Utils versions 5.6.0 and 5.6.1. The attacker used long-term social engineering to gain trust in the open-source project, then introduced code that could affect SSH authentication through liblzma. If deployed in vulnerable environments, it could allow unauthorized remote access under specific conditions. The impact was major because XZ Utils is widely used across Linux distributions, making it a serious supply-chain incident.
+
+12. CVE-2024-38094 – Microsoft SharePoint Server RCE
+This vulnerability was caused by insecure deserialization in Microsoft SharePoint Server. An authenticated attacker with sufficient permissions could exploit it by sending crafted serialized data that SharePoint processed unsafely. This could lead to remote code execution on the SharePoint server. The impact was high because SharePoint often stores sensitive enterprise documents and runs inside corporate networks.
+
+13. ChatGPT GDPR Privacy Breach (March 2023)
+This incident was caused by a bug in the redis-py open-source library used by ChatGPT. The bug allowed some users to see other users’ conversation titles and, for some Plus subscribers, partial payment details. It was not a traditional external exploit but a privacy failure caused by a software defect in session/data handling. The real-world impact included regulatory scrutiny, a temporary ban in Italy, and later GDPR enforcement actions.
+
+14. Samsung Confidential Data Leak via ChatGPT (April 2023)
+This incident was caused by employees entering confidential company information into ChatGPT. The exposed information reportedly included semiconductor source code, internal meeting notes, and hardware test data. It was exploited unintentionally through normal chatbot use rather than by an outside attacker. The impact was serious trade secret exposure, leading Samsung to restrict and then ban external generative AI tools internally.
+
+15. CVE-2025-32711 – EchoLeak (Microsoft 365 Copilot)
+EchoLeak was caused by indirect prompt injection risks in Microsoft 365 Copilot’s handling of email and enterprise context. Attackers could send specially crafted content that Copilot processed automatically, causing it to follow hidden instructions. The reported attack path involved exfiltrating sensitive enterprise data without user clicks. The impact was significant because it showed how AI agents with access to corporate data can become zero-click data leakage channels.
+
+16. Bing Chat “Sydney” Prompt Injection (February 2023)
+This issue was caused by the LLM’s inability to reliably separate system instructions from user-supplied instructions. It was exploited through prompt injection, where users asked the chatbot to ignore previous instructions and reveal hidden prompt content. The model disclosed internal behavioral instructions associated with the “Sydney” persona. The impact was reputational and security-related, demonstrating that prompt injection was a practical weakness in public LLM systems.
+
+17. ChatGPT Legal Hallucination – Mata v. Avianca (May 2023)
+This defect was caused by ChatGPT generating fabricated legal citations while presenting them as real. It was exploited unintentionally when lawyers relied on the generated cases without verifying them against legal databases. The fabricated cases were submitted in a real court filing. The impact included court sanctions, a monetary fine, and broader legal concern about unverified AI-generated content.
+
+18. Air Canada Chatbot Hallucination – Bereavement Fare (2024)
+This incident was caused by Air Canada’s chatbot giving incorrect information about bereavement fare policy. The passenger relied on the chatbot’s statement that a discount could be claimed retroactively, which contradicted the airline’s actual policy. The issue was exploited not maliciously but through normal customer interaction with an unreliable AI system. The real-world impact was legal liability for Air Canada and a clear precedent that companies are responsible for chatbot misinformation.
+
+19. AI Hiring Tool Algorithmic Bias (2023–2025)
+This defect is caused by hiring algorithms learning from biased historical data, incomplete datasets, or poorly explainable scoring models. The tools can indirectly exploit biased correlations by ranking candidates differently based on factors related to gender, race, age, disability, or career history. Even when not intentionally discriminatory, the system can reproduce or amplify unfair hiring patterns. The impact includes discriminatory screening, regulatory pressure, and the need for bias audits and human oversight.
+
+20. ChatGPT RAG/Memory Poisoning & Indirect Prompt Injection (2024)
+This defect is caused by AI systems trusting external content or persistent memory updates without enough validation. Attackers exploit it by placing hidden instructions in webpages, documents, or retrieved knowledge sources that the AI later reads and follows. In memory-enabled systems, malicious instructions can persist and affect future conversations. The impact includes manipulated AI outputs, misinformation, possible data leakage, and reduced trust in RAG or memory-based AI assistants.
+```
+
+## Entry 5 – Requirement 2 Vietnamese Language Cleanup
+
+- **Timestamp:** 15:28 06/06/2026
+- **AI tool used:** Cursor IDE with OpenAI API key (gpt-5.5)
+- **Files attached / used:**
+  - `Report/requirement_2.md`
+
+### Prompt
+
+```text
+I could see there are too many English in @Report/requirement_2.md . Can you just keep the main keywords and translate remaining to Vietnamese.
+```
+
+### AI output
+
+```text
+Done. The full Report/requirement_2.md has been rewritten in Vietnamese while keeping only essential technical keywords in English (CVE numbers, product names like F5 BIG-IP/Spring Framework/Cisco IOS XE, acronyms like RCE/SSRF/DDoS/NTLM/RAG, tool names, and proper nouns).
+
+Key translation decisions:
+- "attacker" → "kẻ tấn công"
+- "authentication bypass" → "bỏ qua xác thực"
+- "remote code execution" → "thực thi mã từ xa"
+- "exploit/exploitation" → "khai thác"
+- "credentials" → "thông tin đăng nhập"
+- "backdoor" kept as-is (widely understood)
+- "hallucination" → "ảo giác" (in AI context)
+- "bias" → "thiên lệch"
+- "YES/NO" → "CÓ/KHÔNG"
+- "Defect" → "Lỗi"
+- Section headings like "Hậu quả", "Giải pháp", "Mô tả" remained Vietnamese throughout
+
+Verification: 20 entries, 8 AI/LLM entries, 0 TODOs remaining, no lint errors.
+```
