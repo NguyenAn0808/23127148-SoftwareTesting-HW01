@@ -39,7 +39,7 @@
 
 #### AI Impact Analysis
 
-TODO: Write 1–2 sentences explaining how AI affects this QA/QC role. Mention whether AI can replace, assist, or cannot replace the work.
+TODO
 
 #### Screenshot
 
