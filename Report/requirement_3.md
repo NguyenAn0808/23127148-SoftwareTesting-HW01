@@ -3,10 +3,10 @@
 ## 1. Thông tin thiết bị được kiểm thử
 
 - Tên thiết bị: Ấm siêu tốc / Rapid boil kettle
-- Brand: [STUDENT TODO: điền brand]
-- Model: [STUDENT TODO: điền model]
-- Year: [STUDENT TODO: điền năm sản xuất/mua thiết bị]
-- Serial number: [STUDENT TODO: điền serial number và che 4 ký tự ở giữa]
+- Brand: Comet
+- Model: CM8215
+- Year: 12/2024
+- Serial number: 001H\*\*\*\*0201
 - Ảnh thiết bị + thẻ sinh viên: [STUDENT TODO: thêm ảnh thiết bị + thẻ sinh viên trong cùng khung hình]
 
 Thiết bị được chọn là một ấm siêu tốc thật đang được sử dụng trong nhà sinh viên. Tất cả thông tin nhận dạng sản phẩm, ảnh chụp, video kiểm thử, kết quả thực tế và bằng chứng lỗi phải được sinh viên bổ sung sau khi kiểm tra thiết bị thật.
@@ -41,15 +41,22 @@ Bộ 15 test cases được thiết kế để bao phủ các nhóm rủi ro ch�
 | TC-KETTLE-14 | Kiểm tra ấm khi đặt lệch hoặc chưa khớp hoàn toàn với đế cấp điện   | Ấm có nước ở mức an toàn, đế cấp điện đặt trên mặt bàn khô          | 1. Đổ nước vào ấm trong giới hạn an toàn.<br>2. Đặt đế trên mặt phẳng khô và cắm điện.<br>3. Đặt ấm lên đế nhưng cố ý để lệch nhẹ, không ép mạnh và không làm ấm mất thăng bằng.<br>4. Thử bật công tắc nếu công tắc có thể thao tác bình thường.<br>5. Đặt lại ấm đúng khớp trên đế để so sánh trạng thái.                                                 | Khi ấm chưa khớp đúng với đế, thiết bị không được hoạt động bất thường; không có tia lửa, mùi khét, tiếng nổ hoặc trạng thái chập chờn nguy hiểm. Khi đặt đúng khớp, trạng thái hoạt động rõ ràng và ổn định theo thiết kế. | Chưa thực thi                                         | Chưa thực thi                                 | [STUDENT TODO: thêm video nếu thực thi ≤ 60 giây]     | Không nghiêng mạnh, không chạm vào tiếp điểm điện, không để nước tràn ra đế.                                  |
 | TC-KETTLE-15 | Kiểm tra hành vi đun lại khi nước còn nóng sau lần tự ngắt trước đó | Nước sạch đã được đun sôi và ấm vừa tự ngắt                         | 1. Thực hiện một lần đun nước bình thường trong giới hạn an toàn.<br>2. Sau khi ấm tự ngắt, để ấm đứng yên trên đế trong thời gian ngắn dưới sự quan sát của người dùng.<br>3. Khi nước vẫn còn nóng, thử bật lại công tắc nếu thiết kế của ấm cho phép.<br>4. Quan sát xem ấm có đun lại ngắn, từ chối bật lại, hoặc tự ngắt tiếp theo thiết kế hay không. | Ấm xử lý lần bật lại một cách kiểm soát: không đun kéo dài bất thường khi nước đã rất nóng, không bật/tắt chập chờn liên tục, không trào nước, không có mùi khét, khói hoặc tiếng động nguy hiểm.                           | Chưa thực thi                                         | Chưa thực thi                                 | [STUDENT TODO: thêm video nếu thực thi ≤ 60 giây]     | Chỉ thực hiện khi người dùng đứng gần quan sát; không ép công tắc và không để ấm hoạt động không giám sát.    |
 
-## 5. Các test cases dự kiến thực thi
+## 5. Các test cases dự kiến quay video kiểm thử
 
-| Test case ID | Execution date                     | Video link under 60 seconds          | Actual result                                         | Verdict                                       | Notes                                                                                                           |
-| ------------ | ---------------------------------- | ------------------------------------ | ----------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| TC-KETTLE-01 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây] | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | Kiểm tra ấm đun nước bình thường với mực nước an toàn.                                                          |
-| TC-KETTLE-02 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây] | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | Kiểm tra nắp khi thiết bị chưa cắm điện.                                                                        |
-| TC-KETTLE-03 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây] | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | Kiểm tra ấm nhận điện và bắt đầu hoạt động.                                                                     |
-| TC-KETTLE-04 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây] | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | Kiểm tra phản ứng khi nhấc ấm khỏi đế trong lúc đang đun; thực hiện dưới quan sát trực tiếp và chỉ cầm tay cầm. |
-| TC-KETTLE-05 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây] | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | Kiểm tra tự ngắt sau khi nước sôi.                                                                              |
+Sinh viên dự kiến quay video cho các test cases sau trên thiết bị thật. Sau khi quay, sinh viên sẽ điền kết quả thực tế, verdict, evidence link và các defects quan sát được nếu có.
+
+| Test case ID | Execution date                     | Video link under 60 seconds              | Actual result                                         | Verdict                                       | Defect observed                               | Notes                                                                |
+| ------------ | ---------------------------------- | ---------------------------------------- | ----------------------------------------------------- | --------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------- |
+| TC-KETTLE-01 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra ấm đun nước bình thường với mực nước an toàn.               |
+| TC-KETTLE-02 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra nắp khi thiết bị chưa cắm điện.                             |
+| TC-KETTLE-03 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra ấm nhận điện khi đặt đúng lên đế.                           |
+| TC-KETTLE-04 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra phản ứng khi nhấc ấm khỏi đế trong lúc đang đun.            |
+| TC-KETTLE-05 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra cơ chế tự ngắt sau khi nước sôi.                            |
+| TC-KETTLE-07 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra rò rỉ hoặc nhỏ giọt khi rót nước sau khi đun.               |
+| TC-KETTLE-08 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra tay cầm khi cầm ấm có nước nóng.                            |
+| TC-KETTLE-11 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra hoạt động với mực nước gần mức tối đa nhưng không vượt MAX. |
+| TC-KETTLE-12 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm video ≤ 60 giây]     | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra độ ổn định của đế và ấm trên mặt phẳng.                     |
+| TC-KETTLE-13 | [STUDENT TODO: điền ngày thực thi] | [STUDENT TODO: thêm ảnh/video ≤ 60 giây] | [STUDENT TODO: điền kết quả thực tế sau khi kiểm thử] | [STUDENT TODO: điền verdict sau khi kiểm thử] | [STUDENT TODO: điền defect nếu quan sát được] | Kiểm tra dây nguồn và phích cắm bằng quan sát bên ngoài.             |
 
 ## 6. Defect log từ thiết bị thật
 
@@ -73,25 +80,26 @@ GitHub Issues chỉ nên được tạo sau khi sinh viên đã thực thi test 
 
 ## 8. AI-missed edge cases
 
-Sau khi rà soát baseline do AI sinh ra, sinh viên nhận thấy ba test cases ban đầu chưa đủ mạnh: TC-KETTLE-04 bị trùng với hành vi đun nước bình thường đã có ở TC-KETTLE-01, TC-KETTLE-14 chỉ kiểm tra nhãn/ký hiệu an toàn, và TC-KETTLE-15 nghiêng về bảo trì sau sử dụng hơn là kiểm thử chức năng, an toàn hoặc biên rủi ro. Ba test cases thay thế dưới đây là các edge cases không xuất hiện trong baseline AI output và được bổ sung để tăng độ bao phủ theo rủi ro thực tế khi dùng ấm siêu tốc trong gia đình.
+- Hai ảnh chụp hội thoại AI dưới đây là minh chứng rằng baseline AI output không sinh ra ba edge cases thay thế này:
+
+![AI baseline conversation showing missing edge cases 1](../Appendix_A/Screenshot/Edge_cases/Edge-case_01.png)
+
+![AI baseline conversation showing missing edge cases 2](../Appendix_A/Screenshot/Edge_cases/Edge-case_02.png)
 
 ### 8.1 Edge case: nhấc ấm khỏi đế trong lúc đang đun
 
 - Related test case ID: TC-KETTLE-04
-- Edge case description: Người dùng có thể nhấc ấm không dây khỏi đế khi ấm đang đun, ví dụ muốn di chuyển ấm hoặc kiểm tra lượng nước. Trường hợp này kiểm tra phản ứng dừng cấp nhiệt và dấu hiệu bất thường ở tiếp xúc giữa ấm và đế.
-- Why the baseline AI likely missed it: Baseline tập trung vào luồng đun nước bình thường và tự ngắt sau khi sôi, nên bỏ sót hành vi gián đoạn giữa chu kỳ đun. Đây là khoảng trống về realistic user behavior và risk-based testing vì rủi ro nằm ở thời điểm ấm đang hoạt động nhưng bị tách khỏi nguồn cấp qua đế.
-- Screenshot of AI conversation proving AI did not generate it: [STUDENT TODO: dán ảnh chụp hội thoại AI chứng minh AI không sinh edge case này]
+- Người dùng có thể nhấc ấm không dây khỏi đế khi ấm đang đun, ví dụ muốn di chuyển ấm hoặc kiểm tra lượng nước. Trường hợp này kiểm tra phản ứng dừng cấp nhiệt và dấu hiệu bất thường tại điểm tiếp xúc giữa ấm và đế.
+- AI baseline tập trung nhiều vào luồng sử dụng bình thường: đặt ấm đúng vị trí, bật công tắc, chờ nước sôi và kiểm tra tự ngắt. Vì vậy, AI chỉ xem quá trình đun như một chuỗi liên tục từ lúc bắt đầu đến lúc kết thúc, chứ chưa xét hành vi người dùng can thiệp giữa chừng. Trường hợp nhấc ấm khỏi đế khi đang đun là edge case vì rủi ro xảy ra tại thời điểm thiết bị đang hoạt động và kết nối điện qua đế bị ngắt đột ngột. Đây là tình huống thực tế với ấm không dây, nhưng dễ bị bỏ sót nếu chỉ thiết kế test theo happy path.
 
 ### 8.2 Edge case: ấm đặt lệch hoặc chưa khớp hoàn toàn với đế cấp điện
 
 - Related test case ID: TC-KETTLE-14
-- Edge case description: Người dùng có thể đặt ấm hơi lệch trên đế, đặc biệt khi thao tác nhanh hoặc đặt trong không gian bếp chật. Trường hợp này kiểm tra thiết bị có tránh hoạt động chập chờn hoặc bất thường khi tiếp xúc giữa ấm và đế chưa ổn định hay không.
-- Why the baseline AI likely missed it: Baseline có test đặt đúng lên đế để kiểm tra nhận điện, nhưng không xét biến thể đặt chưa khớp. Đây là khoảng trống boundary behavior của cơ chế đế cấp điện: giữa trạng thái “đặt đúng và hoạt động” với “không đặt lên đế” còn có trạng thái trung gian dễ gặp trong sử dụng thật.
-- Screenshot of AI conversation proving AI did not generate it: [STUDENT TODO: dán ảnh chụp hội thoại AI chứng minh AI không sinh edge case này]
+- Người dùng có thể đặt ấm hơi lệch trên đế, đặc biệt khi thao tác nhanh hoặc đặt trong không gian bếp chật. Trường hợp này kiểm tra thiết bị có tránh hoạt động chập chờn hoặc bất thường khi tiếp xúc giữa ấm và đế chưa ổn định hay không.
+- AI baseline đã có test đặt ấm đúng lên đế để kiểm tra thiết bị nhận điện, nhưng chưa xét trạng thái trung gian giữa “đặt đúng hoàn toàn” và “không đặt lên đế”. Với ấm siêu tốc không dây, trạng thái đặt lệch là điều kiện ngoại biên quan trọng vì tiếp xúc giữa ấm và đế có thể chưa ổn định. AI dễ bỏ qua trường hợp này vì nó thường giả định người dùng sẽ đặt thiết bị đúng cách trước khi bật, trong khi kiểm thử thực tế cần xét cả thao tác chưa chính xác nhưng vẫn có khả năng xảy ra trong sử dụng hằng ngày.
 
 ### 8.3 Edge case: bật đun lại khi nước vẫn còn nóng sau lần tự ngắt trước đó
 
 - Related test case ID: TC-KETTLE-15
-- Edge case description: Sau khi nước vừa sôi và ấm tự ngắt, người dùng có thể bật lại công tắc khi nước vẫn còn nóng để hâm lại hoặc do chưa nhận ra ấm đã đun xong. Trường hợp này kiểm tra hành vi đun lại ngắn, từ chối bật lại hoặc tự ngắt tiếp theo thiết kế.
-- Why the baseline AI likely missed it: Baseline đã kiểm tra tự ngắt sau khi nước sôi nhưng dừng ở kết thúc của một chu kỳ đun. Nó không mở rộng sang chu kỳ kế tiếp khi trạng thái ban đầu không còn là nước nguội mà là nước vẫn nóng, nên bỏ sót một rủi ro theo chuỗi hành vi người dùng thực tế.
-- Screenshot of AI conversation proving AI did not generate it: [STUDENT TODO: dán ảnh chụp hội thoại AI chứng minh AI không sinh edge case này]
+- Sau khi nước vừa sôi và ấm tự ngắt, người dùng có thể bật lại công tắc khi nước vẫn còn nóng để hâm lại hoặc do chưa nhận ra ấm đã đun xong. Trường hợp này kiểm tra hành vi đun lại ngắn, từ chối bật lại hoặc tự ngắt tiếp theo thiết kế.
+- AI baseline có kiểm tra cơ chế tự ngắt sau khi nước sôi, nhưng chỉ dừng ở kết thúc của một chu kỳ đun đơn lẻ. Nó chưa xét chuỗi hành vi tiếp theo, khi người dùng bật lại ấm trong lúc nước vẫn còn nóng. Đây là edge case theo trạng thái trước đó của thiết bị: lần kiểm thử mới không bắt đầu từ nước nguội hoặc trạng thái ban đầu thông thường, mà bắt đầu từ trạng thái vừa tự ngắt. AI dễ bỏ sót vì mỗi test case trong baseline được viết khá độc lập, chưa phân tích mối liên hệ giữa hai lần sử dụng liên tiếp.
