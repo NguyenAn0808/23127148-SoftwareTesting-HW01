@@ -2,46 +2,48 @@
 
 ### Job 1 – Quality Assurance Specialist
 
-- Company: Poly & Bark
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4417332655/
-- Posting date: ~May 23, 2026 (posted "2 weeks ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (Hybrid)
-- Salary: Not disclosed
-- AI/LLM/automation-AI skills required: NO
+- Công ty: Poly & Bark
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4417332655/
+- Ngày đăng: ~23/05/2026 (hiển thị “2 weeks ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (Hybrid)
+- Lương: Không công bố
+- Yêu cầu kỹ năng AI/LLM/automation-AI: NO
 
-#### Job Description
+#### Mô tả công việc
 
-**About Poly & Bark** Poly & Bark is a modern home furniture company dedicated to delivering stylish, high-quality products that combine comfort, function, and style. We work in a dynamic, collaborative environment to bring inspiring designs to life.
+**Về Poly & Bark**  
+Poly & Bark là một công ty nội thất hiện đại, chuyên cung cấp các sản phẩm phong cách, chất lượng cao, kết hợp giữa sự thoải mái, công năng và tính thẩm mỹ. Công ty làm việc trong một môi trường năng động, hợp tác nhằm hiện thực hóa các thiết kế truyền cảm hứng.
 
-**About the Role** We're looking for a full-time Quality Assurance Specialist based in Ho Chi Minh City. You'll conduct quality control inspections, enforce Good Manufacturing Practices, and audit operational processes to maintain consistent product standards — with the flexibility to work partially from home.
+**Về vai trò này**  
+Công ty đang tìm kiếm một Quality Assurance Specialist làm việc toàn thời gian tại Thành phố Hồ Chí Minh. Ứng viên sẽ thực hiện kiểm tra chất lượng, đảm bảo tuân thủ Good Manufacturing Practices và kiểm toán các quy trình vận hành nhằm duy trì tiêu chuẩn sản phẩm nhất quán — với hình thức làm việc linh hoạt một phần tại nhà.
 
-**Responsibilities**
+**Trách nhiệm**
 
-- Conduct quality control inspections and audits across production processes
-- Ensure adherence to quality management protocols and GMP standards
-- Develop and improve auditing frameworks for operational consistency
-- Contribute to continuous improvement initiatives across the QA function
+- Thực hiện kiểm tra chất lượng và kiểm toán trong các quy trình sản xuất
+- Đảm bảo tuân thủ các quy trình quản lý chất lượng và tiêu chuẩn GMP
+- Phát triển và cải tiến các framework kiểm toán nhằm duy trì tính nhất quán trong vận hành
+- Đóng góp vào các sáng kiến cải tiến liên tục trong chức năng QA
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
-- 5+ years of Furniture and Home Furnishings Manufacturing experience
-- 5+ years of work experience with Upholster, Home Decor, Casegoods
-- Experience in Quality Control and Quality Assurance
-- Knowledge of Quality Management principles and Good Manufacturing Practice (GMP)
-- Proficiency in conducting quality audits and developing auditing frameworks
-- Strong attention to detail and problem-solving skills
-- Effective communication and report-writing abilities
-- Ability to work independently in a hybrid environment
-- Experience in furniture manufacturing or a related industry is a plus
-- Bachelor's degree in Quality Management, Engineering, or a related field
+- Hơn 5 năm kinh nghiệm trong lĩnh vực Furniture and Home Furnishings Manufacturing
+- Hơn 5 năm kinh nghiệm làm việc với Upholster, Home Decor, Casegoods
+- Có kinh nghiệm về Quality Control và Quality Assurance
+- Hiểu biết về các nguyên tắc Quality Management và Good Manufacturing Practice (GMP)
+- Thành thạo trong việc thực hiện quality audits và phát triển auditing frameworks
+- Chú ý đến chi tiết và có kỹ năng giải quyết vấn đề tốt
+- Có khả năng giao tiếp và viết báo cáo hiệu quả
+- Có khả năng làm việc độc lập trong môi trường hybrid
+- Có kinh nghiệm trong sản xuất nội thất hoặc ngành liên quan là một lợi thế
+- Bằng cử nhân ngành Quality Management, Engineering hoặc lĩnh vực liên quan
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+AI không phải là kỹ năng cốt lõi trong vị trí này, nhưng có thể hỗ trợ QA Specialist tổng hợp dữ liệu kiểm toán, phát hiện xu hướng lỗi và chuẩn hóa báo cáo chất lượng trong sản xuất nội thất. Tuy vậy, trách nhiệm chính vẫn thuộc về con người vì việc đánh giá GMP, kiểm tra vật liệu/sản phẩm thực tế và quyết định cải tiến quy trình cần kinh nghiệm ngành, quan sát trực tiếp và phán đoán chuyên môn.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 1 screenshot 1](../Requirement_1/Screenshots/Job01/job01_01.png)
 ![Job 1 screenshot 2](../Requirement_1/Screenshots/Job01/job01_02.png)
@@ -50,63 +52,62 @@ TODO
 
 ### Job 2 - Junior QA/QC Engineer
 
-- Company: SQREEM Technologies
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4424542002/
-- Posting date: June 06, 2026 (posted "16 hours ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (Hybrid, Full-time)
-- Salary: Not disclosed
-- AI/LLM/automation-AI skills required: NO
+- Công ty: SQREEM Technologies
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4424542002/
+- Ngày đăng: 06/06/2026 (hiển thị “16 hours ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (Hybrid, Full-time)
+- Lương: Không công bố
+- Yêu cầu kỹ năng AI/LLM/automation-AI: NO
 
-### Job Description
+### Mô tả công việc
 
-#### WHO ARE WE?
+#### CHÚNG TÔI LÀ AI?
 
-Our vision is to transform human behaviour into actionable intelligence.
+Tầm nhìn của SQREEM là chuyển đổi hành vi con người thành actionable intelligence.
 
-SQREEM is a leading Cognitive AI company specializing in delivering Behavioral Intelligence, a transformative approach to understanding, mapping, and predicting human behavior.
+SQREEM là một công ty Cognitive AI hàng đầu, chuyên cung cấp Behavioral Intelligence — một phương pháp mang tính chuyển đổi trong việc hiểu, lập bản đồ và dự đoán hành vi con người.
 
-Using our proprietary Cognitive AI model, we process over 4 billion unrelated and unstructured data signals daily from the Open Web across 70+ countries. By decoding patterns, uncovering intent, and analyzing behaviors, we transform vast, complex datasets into actionable intelligence that businesses rely on to make smarter, more precise decisions.
+Bằng cách sử dụng mô hình Cognitive AI độc quyền, công ty xử lý hơn 4 tỷ tín hiệu dữ liệu không liên quan và phi cấu trúc mỗi ngày từ Open Web trên hơn 70 quốc gia. Thông qua việc giải mã các mẫu hành vi, phát hiện ý định và phân tích hành vi, SQREEM chuyển đổi các tập dữ liệu lớn và phức tạp thành actionable intelligence để doanh nghiệp có thể đưa ra quyết định thông minh và chính xác hơn.
 
-Our innovative technology powers ONE platform, our proprietary stack end-to-end platform, which enables organizations to turn complex behaviors into clear, data-driven insights. From understanding audience intent to curating highly refined segments, ONE bridges the gap between data and decision-making, empowering businesses to unlock meaningful engagement at scale.
+Công nghệ đổi mới của công ty vận hành ONE platform, một nền tảng end-to-end độc quyền, cho phép các tổ chức chuyển đổi những hành vi phức tạp thành các insight rõ ràng dựa trên dữ liệu. Từ việc hiểu ý định của audience đến xây dựng các segment được tinh chỉnh cao, ONE thu hẹp khoảng cách giữa dữ liệu và quá trình ra quyết định, giúp doanh nghiệp mở khóa khả năng tương tác có ý nghĩa ở quy mô lớn.
 
-The result is the world’s largest library of privacy-first, non-PII, GDPR-compliant intent and demographic signals, including ID-free cohorts that meet the highest global privacy and security standards, such as HIPAA, COPPA, GDPR, and ISO-27001.
+Kết quả là thư viện lớn nhất thế giới về các tín hiệu intent và demographic theo hướng privacy-first, non-PII, GDPR-compliant, bao gồm các ID-free cohorts đáp ứng các tiêu chuẩn toàn cầu cao nhất về quyền riêng tư và bảo mật như HIPAA, COPPA, GDPR và ISO-27001.
 
-To reach an under 18 audience, our platform, TotallyAwesome, is a contextual-first marketing solution that enhances ad effectiveness without using personal data and guarantees 100% brand safety. By combining human moderation, AI and psychological expertise, we deliver the right content to the right audience at the right time. Our multi-channel solutions reach over 600 million monthly users in APAC across apps, sites, YouTube, gaming, and influencers.
+Để tiếp cận nhóm audience dưới 18 tuổi, nền tảng TotallyAwesome là một giải pháp marketing theo hướng contextual-first, giúp tăng hiệu quả quảng cáo mà không sử dụng dữ liệu cá nhân và đảm bảo 100% brand safety. Bằng cách kết hợp human moderation, AI và chuyên môn tâm lý học, công ty phân phối đúng nội dung đến đúng audience vào đúng thời điểm. Các giải pháp multi-channel của công ty tiếp cận hơn 600 triệu người dùng hàng tháng tại APAC trên apps, sites, YouTube, gaming và influencers.
 
-#### WHAT WILL YOU BE DOING?
+#### BẠN SẼ LÀM GÌ?
 
-**How will YOU contribute to the Team?**
+**Bạn sẽ đóng góp cho team như thế nào?**
 
-- Perform manual testing for web applications and mobile applications from start to finish
-- Execute API testing when required
-- Create and execute detailed test plans and test cases
-- Identify, document, and track defects
-- Collaborate with developers to ensure timely resolution of issues
-- Proactively identify potential issues and recommend solutions
-- Develop and execute automated test scripts to improve testing efficiency
+- Thực hiện manual testing cho web applications và mobile applications từ đầu đến cuối
+- Thực hiện API testing khi được yêu cầu
+- Tạo và thực thi test plans và test cases chi tiết
+- Xác định, ghi nhận và theo dõi defects
+- Phối hợp với developers để đảm bảo issues được xử lý kịp thời
+- Chủ động xác định các vấn đề tiềm ẩn và đề xuất giải pháp
+- Phát triển và thực thi automated test scripts nhằm cải thiện hiệu quả kiểm thử
 
-#### WHO ARE WE LOOKING FOR?
+#### CHÚNG TÔI ĐANG TÌM KIẾM AI?
 
-- Bachelor’s degree in Computer Science or a related field
-- At least 1 year of experience in Web UI and Mobile application testing
-- Understanding of software testing methodologies, processes, and best practices
-- Basic knowledge of programming languages such as Java or Python
-- Basic knowledge of SQL and database testing
-- Experience with API testing tools such as Postman or Swagger is a plus
-- Experience with automation testing tools such as Selenium, Appium, or Robot
-- Framework is a plus
-- Experience with Performance or Security testing is a plus
-- Familiarity with Android and iOS testing is an advantage
-- Highly motivated and proactive with a strong work ethic
-- Excellent analytical and problem-solving skills
-- Strong communication and teamwork abilities
-- Good spoken and written English
+- Bằng cử nhân ngành Computer Science hoặc lĩnh vực liên quan
+- Ít nhất 1 năm kinh nghiệm kiểm thử Web UI và Mobile application
+- Hiểu biết về software testing methodologies, processes và best practices
+- Có kiến thức cơ bản về ngôn ngữ lập trình như Java hoặc Python
+- Có kiến thức cơ bản về SQL và database testing
+- Có kinh nghiệm với API testing tools như Postman hoặc Swagger là một lợi thế
+- Có kinh nghiệm với automation testing tools như Selenium, Appium hoặc Robot Framework là một lợi thế
+- Có kinh nghiệm Performance hoặc Security testing là một lợi thế
+- Quen thuộc với Android và iOS testing là một lợi thế
+- Có động lực cao, chủ động và có tinh thần làm việc tốt
+- Có kỹ năng phân tích và giải quyết vấn đề xuất sắc
+- Có kỹ năng giao tiếp và làm việc nhóm tốt
+- Có khả năng nói và viết tiếng Anh tốt
 
-#### OUR ETIQUETTE
+#### VĂN HÓA LÀM VIỆC CỦA CHÚNG TÔI
 
-We work together to give everyone the power to share their story, explore what they love, and connect with one another in the process. In our culture, we live by the following values:
+Công ty làm việc cùng nhau để giúp mọi người có khả năng chia sẻ câu chuyện của mình, khám phá điều họ yêu thích và kết nối với nhau trong quá trình đó. Trong văn hóa của công ty, các giá trị sau được đề cao:
 
 - Innovation & Agility
 - Teamwork & Collaboration
@@ -114,54 +115,54 @@ We work together to give everyone the power to share their story, explore what t
 - Results driven performance
 - Human by design
 
-Our people are at the heart of what we do and the driving force behind our growth and success. We value our culture as the lifeblood of our business and work hard every day to maintain this as we continue to grow and scale our team. We believe in offering opportunities to learn and grow every day, and we have a strong track record in developing great people.
+Con người là trung tâm trong những gì công ty làm và là động lực thúc đẩy sự tăng trưởng cũng như thành công. Công ty xem văn hóa là huyết mạch của doanh nghiệp và nỗ lực duy trì điều này mỗi ngày khi tiếp tục phát triển và mở rộng team. Công ty tin vào việc mang đến cơ hội học hỏi và phát triển mỗi ngày, đồng thời có thành tích tốt trong việc phát triển nhân sự.
 
-We are proud to be an equal opportunity workplace. We review job applications without regard to their race, color, religion, gender identity, national origin, citizenship, age, and marital status.
+Công ty tự hào là một môi trường làm việc bình đẳng về cơ hội. Công ty xem xét hồ sơ ứng tuyển mà không phân biệt chủng tộc, màu da, tôn giáo, bản dạng giới, nguồn gốc quốc gia, quốc tịch, tuổi tác và tình trạng hôn nhân.
 
-#### PERSONAL ATTRIBUTES
+#### PHẨM CHẤT CÁ NHÂN
 
-- You are self-starter, independent, and problem-solving. You consider yourself a high-performance personality
-- Understand what it means to deliver excellence.
-- Good sense of humor and ability to stay calm under pressure.
-- Well-organised with excellent communication and time management skills.
+- Bạn là người chủ động, độc lập và có khả năng giải quyết vấn đề. Bạn xem mình là người có hiệu suất làm việc cao
+- Hiểu ý nghĩa của việc mang lại sự xuất sắc
+- Có khiếu hài hước và khả năng giữ bình tĩnh dưới áp lực
+- Có tổ chức tốt, kỹ năng giao tiếp và quản lý thời gian xuất sắc
 
-#### WHAT CAN WE OFFER YOU
+#### CHÚNG TÔI CÓ THỂ MANG LẠI GÌ CHO BẠN
 
-- Social work environment
-- Flexible working arrangements
-- Mentorship programs
-- Remote working support across multiple markets
-- We are a team of passionate experts. We are not just leading this industry; we are defining it.
+- Môi trường làm việc xã hội
+- Hình thức làm việc linh hoạt
+- Chương trình mentorship
+- Hỗ trợ làm việc từ xa trên nhiều thị trường
+- Công ty là một team gồm các chuyên gia đam mê. Công ty không chỉ dẫn đầu ngành này mà còn đang định hình ngành này.
 
-Please send us your resume in English to careers@sqreem.com
+Vui lòng gửi CV bằng tiếng Anh đến careers@sqreem.com
 
-### Required Skills
+### Kỹ năng yêu cầu
 
-- Bachelor's degree in Computer Science or a related field
+- Bằng cử nhân ngành Computer Science hoặc lĩnh vực liên quan
 
-- At least 1 year of experience in Web UI and Mobile application testing
+- Ít nhất 1 năm kinh nghiệm kiểm thử Web UI và Mobile application
 
-- Understanding of software testing methodologies, processes, and best practices
+- Hiểu biết về software testing methodologies, processes và best practices
 
-- Basic knowledge of programming languages (Java or Python)
+- Kiến thức cơ bản về ngôn ngữ lập trình như Java hoặc Python
 
-- Basic knowledge of SQL and database testing
+- Kiến thức cơ bản về SQL và database testing
 
-- Experience with API testing tools (Postman or Swagger) — plus
+- Kinh nghiệm với API testing tools như Postman hoặc Swagger — plus
 
-- Experience with automation testing tools (Selenium, Appium, or Robot Framework) — plus
+- Kinh nghiệm với automation testing tools như Selenium, Appium hoặc Robot Framework — plus
 
-- Experience with Performance or Security testing — plus
+- Kinh nghiệm với Performance hoặc Security testing — plus
 
-- Familiarity with Android and iOS testing — advantage
+- Quen thuộc với Android và iOS testing — advantage
 
-- Strong analytical, communication, and English (written and spoken) skills
+- Kỹ năng phân tích, giao tiếp và tiếng Anh tốt, bao gồm viết và nói
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+Dù công ty hoạt động trong lĩnh vực Cognitive AI, vị trí Junior QA/QC Engineer này vẫn tập trung vào manual testing, API testing, test case design và defect tracking, nên AI chủ yếu đóng vai trò công cụ hỗ trợ tạo test cases, phân tích log hoặc gợi ý phạm vi regression. Người QA vẫn cần tự xác nhận hành vi web/mobile, đánh giá defect theo ngữ cảnh sản phẩm và phối hợp với developer để xử lý lỗi đúng mức ưu tiên.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 2 screenshot 1](../Requirement_1/Screenshots/Job02/job02_01.png)
 ![Job 2 screenshot 2](../Requirement_1/Screenshots/Job02/job02_02.png)
@@ -171,60 +172,60 @@ TODO
 
 ### Job 3 – Junior QA Engineer
 
-- Company: DXC Technology (NYSE: DXC)
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4394431613/
-- Posting date: ~May 23, 2026 ("Reposted 2 weeks ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (Full-time)
-- Salary: Not disclosed (benefits include 13th-month salary guaranteed, full social/health/unemployment insurance, premium healthcare 1+1, 12 annual leave days + 6 personal days)
-- AI/LLM/automation-AI skills required: NO
+- Công ty: DXC Technology (NYSE: DXC)
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4394431613/
+- Ngày đăng: ~23/05/2026 (“Reposted 2 weeks ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (Full-time)
+- Lương: Không công bố. Phúc lợi bao gồm 13th-month salary guaranteed, đầy đủ social/health/unemployment insurance, premium healthcare 1+1, 12 ngày annual leave + 6 ngày personal days
+- Yêu cầu kỹ năng AI/LLM/automation-AI: NO
 
-#### Job Description
+#### Mô tả công việc
 
-DXC Technology is a global enterprise technology partner helping organizations harness AI to modernize infrastructure, applications, and industry-specific solutions. The Junior QA Engineer (Manual + Automation) will work in an Agile/Scrum environment, own the full defect lifecycle in Jira, and maintain automated test scripts using Katalon Studio and/or TestComplete.
+DXC Technology là một đối tác công nghệ doanh nghiệp toàn cầu, hỗ trợ các tổ chức khai thác AI để hiện đại hóa infrastructure, applications và các giải pháp chuyên biệt theo ngành. Junior QA Engineer (Manual + Automation) sẽ làm việc trong môi trường Agile/Scrum, phụ trách toàn bộ defect lifecycle trong Jira và duy trì automated test scripts bằng Katalon Studio và/hoặc TestComplete.
 
-**Responsibilities:**
+**Trách nhiệm:**
 
-- Analyze business requirements and create detailed test plans, test cases, and test scenarios
+- Phân tích business requirements và tạo test plans, test cases, test scenarios chi tiết
 
-- Execute manual testing including functional, regression, smoke, and UAT for web and mobile applications
+- Thực hiện manual testing bao gồm functional, regression, smoke và UAT cho web và mobile applications
 
-- Log, track, and manage defects in Jira with clear reproduction steps and proper prioritization
+- Ghi nhận, theo dõi và quản lý defects trong Jira với các bước tái hiện rõ ràng và mức độ ưu tiên phù hợp
 
-- Collaborate with developers, BAs, and Product Owners in an Agile/Scrum environment
+- Phối hợp với developers, BAs và Product Owners trong môi trường Agile/Scrum
 
-- Maintain and execute automated test scripts using Katalon Studio and/or TestComplete; update object repositories and create reusable keywords/functions
+- Duy trì và thực thi automated test scripts bằng Katalon Studio và/hoặc TestComplete; cập nhật object repositories và tạo reusable keywords/functions
 
-- Conduct basic API testing using Postman or Katalon (REST)
+- Thực hiện API testing cơ bản bằng Postman hoặc Katalon (REST)
 
-- Contribute to continuous improvement of QA processes, documentation, and test data management
+- Đóng góp vào việc cải tiến liên tục QA processes, documentation và test data management
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
 **Must-have:**
 
-- 1+ year of QA testing experience with strong manual testing exposure (functional, regression, integration)
+- Hơn 1 năm kinh nghiệm QA testing với nền tảng manual testing tốt, bao gồm functional, regression, integration
 
-- Solid understanding of SDLC/STLC and QA best practices
+- Hiểu rõ SDLC/STLC và QA best practices
 
-- Hands-on automation experience: Katalon Studio (Groovy/Java) and/or TestComplete (JavaScript/VBScript/Python)
+- Có kinh nghiệm thực hành automation: Katalon Studio (Groovy/Java) và/hoặc TestComplete (JavaScript/VBScript/Python)
 
-- API testing with Postman/REST; basic SQL knowledge is an advantage
+- API testing với Postman/REST; kiến thức SQL cơ bản là một lợi thế
 
-- English Intermediate level; strong communication and teamwork
+- Trình độ tiếng Anh Intermediate; giao tiếp và làm việc nhóm tốt
 
 **Nice to have:**
 
-- Git, Jenkins, or Azure DevOps
+- Git, Jenkins hoặc Azure DevOps
 
 - Test management tools: Xray, Zephyr
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+Với vai trò Junior QA Engineer kết hợp manual và automation, AI có thể hỗ trợ viết test scenarios từ business requirements, tạo dữ liệu kiểm thử và phân tích lỗi trong Jira hoặc automation scripts. Tuy nhiên, công việc vẫn cần QA tự hiểu nghiệp vụ, xác định coverage cho functional/regression/UAT và kiểm soát chất lượng script Katalon/TestComplete thay vì phụ thuộc hoàn toàn vào gợi ý tự động.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 3 screenshot 1](../Requirement_1/Screenshots/Job03/job03_01.png)
 ![Job 3 screenshot 2](../Requirement_1/Screenshots/Job03/job03_02.png)
@@ -235,61 +236,61 @@ TODO
 
 ### Job 4 – Quality Control Engineer
 
-- Company: DXC Technology (NYSE: DXC)
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4410294847/
-- Posting date: June 3, 2026 ("Reposted 3 days ago" as of June 6, 2026)
-- Date screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (Hybrid, Full-time)
-- Salary: Not disclosed (benefits include 13th-month salary guaranteed, full social/health/unemployment insurance, premium healthcare 1+1, 12 annual leave days + 6 personal days)
-- AI/LLM/automation-AI skills required: NO
+- Công ty: DXC Technology (NYSE: DXC)
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4410294847/
+- Ngày đăng: 03/06/2026 (“Reposted 3 days ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (Hybrid, Full-time)
+- Lương: Không công bố. Phúc lợi bao gồm 13th-month salary guaranteed, đầy đủ social/health/unemployment insurance, premium healthcare 1+1, 12 ngày annual leave + 6 ngày personal days
+- Yêu cầu kỹ năng AI/LLM/automation-AI: NO
 
-#### Job Description
+#### Mô tả công việc
 
-**Job Summary:**
+**Tóm tắt công việc:**
 
-An exciting Quality Control Engineer opening has been available for those who are interested in developing and executing exploratory and automated tests to ensure better product quality. You will be responsible for developing and implementing tests, debugging and defining corrective actions. You will also review system requirements and track quality assurance metrics (e.g. defect densities and open defect counts.)
+Đây là một vị trí Quality Control Engineer dành cho những ứng viên quan tâm đến việc phát triển và thực thi exploratory tests và automated tests nhằm đảm bảo chất lượng sản phẩm tốt hơn. Ứng viên sẽ chịu trách nhiệm phát triển và triển khai tests, debug và xác định corrective actions. Ứng viên cũng sẽ review system requirements và theo dõi quality assurance metrics, ví dụ như defect densities và open defect counts.
 
-**Job Responsibilities**
+**Trách nhiệm công việc**
 
-- Design and develop tests, working with team members to understand business needs
-- Design and write automation test script and execute testing
-- Working within the team to identify risks and create tests to mitigate
-- Focus on enhancing testing skills to include corner cases
-- Be responsible for your tasks and story completion
-- Analyze requirements for testability, pointing out gaps and potential pitfalls
-- Communicate issues as they are found immediately to team to ensure the proper attention is given to resolutions
-- Work with the team to troubleshoot/determine resolution for simple issues in your team's domain
-- Assists in developing physical and functional test requirements to assure specifications & regulations are met.
-- Directly report to PM/QC lead in the account
+- Thiết kế và phát triển tests, làm việc với các thành viên trong team để hiểu business needs
+- Thiết kế, viết automation test script và thực thi testing
+- Làm việc trong team để xác định risks và tạo tests nhằm giảm thiểu risks
+- Tập trung nâng cao kỹ năng testing, bao gồm corner cases
+- Chịu trách nhiệm cho tasks và story completion của mình
+- Phân tích requirements về khả năng testability, chỉ ra gaps và potential pitfalls
+- Thông báo issues ngay khi phát hiện cho team để đảm bảo các vấn đề được chú ý và xử lý phù hợp
+- Làm việc với team để troubleshoot/xác định resolution cho các vấn đề đơn giản trong domain của team
+- Hỗ trợ phát triển physical và functional test requirements để đảm bảo specifications & regulations được đáp ứng
+- Báo cáo trực tiếp cho PM/QC lead trong account
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
 **Must-have:**
 
-- Bachelor's degree or higher in Computer Science, Information Technology, or related field
+- Bằng cử nhân hoặc cao hơn trong ngành Computer Science, Information Technology hoặc lĩnh vực liên quan
 
-- Minimum 1 year of experience in software testing
+- Tối thiểu 1 năm kinh nghiệm trong software testing
 
-- Knowledge of at least one programming language (Java, Python, etc.)
+- Có kiến thức về ít nhất một ngôn ngữ lập trình như Java, Python, v.v.
 
-- Experience with HTML and CSS
+- Có kinh nghiệm với HTML và CSS
 
-- Ability to write clear and concise test documentation
+- Có khả năng viết test documentation rõ ràng và súc tích
 
-- Good English communication, collaboration, and teamwork skills
+- Kỹ năng giao tiếp tiếng Anh, phối hợp và làm việc nhóm tốt
 
 **Nice to have:**
 
-- Knowledge of CI/CD pipelines
+- Kiến thức về CI/CD pipelines
 
-- Experience with Agile development methodologies
+- Kinh nghiệm với Agile development methodologies
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+AI có thể hỗ trợ Quality Control Engineer trong việc gợi ý corner cases, phân tích defect metrics như defect density/open defect count và hỗ trợ review yêu cầu về testability. Tuy nhiên, vị trí này không yêu cầu AI trực tiếp, nên năng lực quan trọng vẫn là thiết kế exploratory/automated tests, đánh giá risk, giao tiếp issue sớm và đưa ra corrective actions dựa trên hiểu biết domain của team.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 4 screenshot 1](../Requirement_1/Screenshots/Job04/job04_01.png)
 ![Job 4 screenshot 2](../Requirement_1/Screenshots/Job04/job04_02.png)
@@ -299,101 +300,101 @@ TODO
 
 ### Job 5 – QA Engineer (AI Testing)
 
-- Company: SCC Vietnam (Specialist Computer Centers Ltd. — operating in 50+ countries)
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4420283653/
-- Posting date: ~May 30, 2026 ("1 week ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City Metropolitan Area (Hybrid, Full-time)z
-- Salary: Not diclosed (erformance Bonus, 13th Salary, comprehensive healthcare including Accident 24/24, Inpatient, Outpatient, Dental + Dependents, Annual Health Check, Company Trip)
-- AI/LLM/automation-AI skills required: YES
+- Công ty: SCC Vietnam (Specialist Computer Centers Ltd. — hoạt động tại hơn 50 quốc gia)
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4420283653/
+- Ngày đăng: ~30/05/2026 (“1 week ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Khu vực Thành phố Hồ Chí Minh, Việt Nam (Hybrid, Full-time)
+- Lương: Không công bố. Phúc lợi gồm Performance Bonus, 13th Salary, healthcare toàn diện bao gồm Accident 24/24, Inpatient, Outpatient, Dental + Dependents, Annual Health Check, Company Trip
+- Yêu cầu kỹ năng AI/LLM/automation-AI: YES
 
-#### Job Description
+#### Mô tả công việc
 
-We are looking for an AI QC to join our growing business in Ho Chi Minh office. Reporting directly to the Test Lead, this role offers an excellent opportunity to support the business and to enhance its testing capabilities. The duties will consist of Manual/Automated Testing, which will be utilised to support and enhance our testing. As part of this role, the QC will work closely with a variety of different stakeholders, across the business, for project.
+Công ty đang tìm kiếm một AI QC để tham gia vào hoạt động kinh doanh đang phát triển tại văn phòng Thành phố Hồ Chí Minh. Báo cáo trực tiếp cho Test Lead, vai trò này mang đến cơ hội tốt để hỗ trợ doanh nghiệp và nâng cao năng lực testing. Nhiệm vụ bao gồm Manual/Automated Testing, được sử dụng để hỗ trợ và nâng cao hoạt động testing. Trong vai trò này, QC sẽ làm việc chặt chẽ với nhiều stakeholders khác nhau trong doanh nghiệp và trong dự án.
 
-**The QC is responsible for developing Test Scripts and Test Data** for applications to ensure the quality, reliability, and compliance of Scout an AI-powered agent for sales teams by systematically validating data consolidation, conversational accuracy, meeting preparation outputs, and strategic insights within Microsoft Teams.
+**QC chịu trách nhiệm phát triển Test Scripts và Test Data** cho applications nhằm đảm bảo chất lượng, độ tin cậy và sự tuân thủ của Scout — một AI-powered agent cho sales teams — bằng cách xác thực một cách có hệ thống các khía cạnh như data consolidation, conversational accuracy, meeting preparation outputs và strategic insights trong Microsoft Teams.
 
-**Main Duties of Job:**
+**Nhiệm vụ chính của công việc:**
 
-- Assist Test Lead reviewing and supporting documentation to be produced by the testing team, including; Test Quality Matrix, Test Entry/Exit criteria, daily reporting, and test completion reports
+- Hỗ trợ Test Lead review và hỗ trợ documentation do testing team tạo ra, bao gồm Test Quality Matrix, Test Entry/Exit criteria, daily reporting và test completion reports
 
-- Working with UK Team, perform SIT, FAT for Project Team
+- Làm việc với UK Team, thực hiện SIT, FAT cho Project Team
 
 - Functional Testing
-  - Validate chat-based AI interactions and structured account insights for accuracy, clarity, and completeness.
+  - Xác thực chat-based AI interactions và structured account insights về độ chính xác, rõ ràng và đầy đủ.
 
-  - Test data consolidation from ZoomInfo, Sales Hub (CRM), and public web sources via the Knowledge Graph.
+  - Kiểm thử data consolidation từ ZoomInfo, Sales Hub (CRM) và public web sources thông qua Knowledge Graph.
 
-  - Assess meeting preparation outputs, including summaries, stakeholder profiles, signals, and talking points.
+  - Đánh giá meeting preparation outputs, bao gồm summaries, stakeholder profiles, signals và talking points.
 
-  - Verify role play simulations for stakeholder conversations.
+  - Xác minh role play simulations cho stakeholder conversations.
 
 - Source Priority & Conflict Logic
-  - Check that conflict resolution rules are applied correctly (priority, recency, confidence thresholds).
+  - Kiểm tra conflict resolution rules được áp dụng đúng, bao gồm priority, recency và confidence thresholds.
 
-  - Ensure outputs include a transparent conflict resolution log as per EU AI Act compliance.
+  - Đảm bảo outputs bao gồm conflict resolution log minh bạch theo yêu cầu EU AI Act compliance.
 
 - Compliance and Auditability
-  - Verify Scout's transparency, human oversight, and accuracy requirements.
+  - Xác minh các yêu cầu về transparency, human oversight và accuracy của Scout.
 
-  - Confirm logging and source attribution in accordance with EU AI Act and group policy.
+  - Xác nhận logging và source attribution tuân thủ EU AI Act và group policy.
 
 - Adapter & Scalability Testing
 
-- Test data adapters for authentication, field mapping, normalization, and error handling.
-  - Validate integration across different markets and data sources.
+- Kiểm thử data adapters cho authentication, field mapping, normalization và error handling.
+  - Xác thực integration trên nhiều markets và data sources khác nhau.
 
 - Bug Reporting & Iteration
-  - Document test results, defects, and improvement recommendations.
+  - Ghi nhận test results, defects và improvement recommendations.
 
-  - Collaborate with developers, architects, and project stakeholders to support agile delivery.
+  - Phối hợp với developers, architects và project stakeholders để hỗ trợ agile delivery.
 
-- Analysis and interpretation of Business Requirements
+- Phân tích và diễn giải Business Requirements
 
-- Review and accept project plans at project commencement and specify the milestones and estimated hours for test case writing and testing
+- Review và chấp nhận project plans khi bắt đầu dự án, đồng thời xác định milestones và estimated hours cho việc viết test cases và testing
 
-- Demonstrate the ability to design efficient test cases and analyse and provide reporting on the test results
+- Thể hiện khả năng thiết kế test cases hiệu quả, phân tích và cung cấp reporting về test results
 
-- To provide testing progress reports and ensure any potential issues are raised
+- Cung cấp testing progress reports và đảm bảo các vấn đề tiềm ẩn được nêu ra
 
-- To ensure project deadlines are met through proactive management of testing tasks
+- Đảm bảo project deadlines được đáp ứng thông qua việc quản lý chủ động testing tasks
 
-- Participate in defect review and project related meetings
+- Tham gia defect review và các cuộc họp liên quan đến dự án
 
-- Have a proactive and good work relationship with other members of the project team
+- Duy trì mối quan hệ làm việc chủ động và tích cực với các thành viên khác trong project team
 
-- Provide input into daily scrum, planning, estimation and retrospective sessions
+- Đóng góp vào daily scrum, planning, estimation và retrospective sessions
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
 **Must-have:**
 
-- Bachelor's degree in Computer Science, Engineering, Information Systems, or equivalent
+- Bằng cử nhân ngành Computer Science, Engineering, Information Systems hoặc tương đương
 
-- 2–4 years of experience in software or AI testing (manual and automated)
+- 2–4 năm kinh nghiệm trong software hoặc AI testing, bao gồm manual và automated
 
-- Familiarity with Microsoft Teams, Azure AI/Cloud stack, CRM platforms (Sales Hub, Salesforce), and public data sources
+- Quen thuộc với Microsoft Teams, Azure AI/Cloud stack, CRM platforms như Sales Hub, Salesforce và public data sources
 
-- Experience testing conversational interfaces, data pipelines, or AI-powered applications
+- Có kinh nghiệm testing conversational interfaces, data pipelines hoặc AI-powered applications
 
-- Understanding of AI conflict resolution, data governance, and compliance frameworks (EU AI Act)
+- Hiểu AI conflict resolution, data governance và compliance frameworks như EU AI Act
 
-- Experience with SIT/FAT/coordination and in-depth knowledge of the testing lifecycle
+- Có kinh nghiệm SIT/FAT/coordination và hiểu sâu về testing lifecycle
 
-- Agile Methodology experience; strong stakeholder and customer management skills
+- Có kinh nghiệm Agile Methodology; kỹ năng stakeholder và customer management tốt
 
 **Nice to have:**
 
-- Onshore/offshore working environment experience
+- Kinh nghiệm làm việc trong môi trường onshore/offshore
 
-- Knowledge of release and project management
+- Kiến thức về release và project management
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+AI tác động trực tiếp đến vai trò này vì QC phải kiểm thử một AI-powered sales agent, bao gồm conversational accuracy, data consolidation, conflict logic, source attribution và yêu cầu EU AI Act compliance. Vì vậy kỹ năng quan trọng không chỉ là manual/automation testing mà còn là đánh giá đầu ra AI, thiết kế test data cho nhiều nguồn dữ liệu, kiểm tra audit log và đảm bảo human oversight trước khi chấp nhận chất lượng.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 5 screenshot 1](../Requirement_1/Screenshots/Job05/job05_01.png)
 ![Job 5 screenshot 2](../Requirement_1/Screenshots/Job05/job05_02.png)
@@ -404,49 +405,49 @@ TODO
 
 ### Job 6 – Quality Engineer
 
-- Company: ZaloPay (Vietnam's leading digital payment platform)
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4409679195
-- Posting date: ~May 06, 2026 ("1 month ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (On-site, Full-time)
-- Salary: Not disclosed
-- AI/LLM/automation-AI skills required: YES
+- Công ty: ZaloPay, nền tảng thanh toán số hàng đầu Việt Nam
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4409679195
+- Ngày đăng: ~06/05/2026 (“1 month ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (On-site, Full-time)
+- Lương: Không công bố
+- Yêu cầu kỹ năng AI/LLM/automation-AI: YES
 
-#### Job Description
+#### Mô tả công việc
 
-**Description:**
+**Mô tả:**
 
-- Design and develop automated test scripts based on test cases and requirements.
-- Regularly update and maintain test scripts to ensure they remain effective with application changes.
-- Run automated tests and analyze results to ensure that software meets quality standards.
-- Identify, log, and track defects found during testing and collaborate with developers to resolve them.
-- Document test plans, test cases, and results to ensure comprehensive coverage and traceability.
-- Identify opportunities for improving the efficiency and effectiveness of the test automation process.
-- Review requirements, specifications, and technical design documents.
-- Ensure that validated deliverables meet functional and design specifications and requirements.
-- Keeping updated with new testing tools and test strategies.
+- Thiết kế và phát triển automated test scripts dựa trên test cases và requirements.
+- Thường xuyên cập nhật và bảo trì test scripts để đảm bảo chúng vẫn hiệu quả khi application thay đổi.
+- Chạy automated tests và phân tích kết quả để đảm bảo software đáp ứng quality standards.
+- Xác định, ghi nhận và theo dõi defects phát hiện trong quá trình testing, đồng thời phối hợp với developers để xử lý.
+- Tài liệu hóa test plans, test cases và results nhằm đảm bảo coverage và traceability đầy đủ.
+- Xác định các cơ hội cải thiện hiệu quả và hiệu suất của test automation process.
+- Review requirements, specifications và technical design documents.
+- Đảm bảo các validated deliverables đáp ứng functional và design specifications cũng như requirements.
+- Cập nhật các testing tools và test strategies mới.
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
-- Bachelor's degree in computer science, engineering, or a related field.
-- 2+ years of hands-on experience in QE role.
-- Experience with test automation frameworks like Selenium, Playwright, Appium, or similar.
-- Experience with tools such as JMeter, Postman is preferred.
-- Experience in writing new test cases based on requirements.
-- Integration Test and developing test cases, test plan.
-- Good knowledge of software development methodologies.
-- Experience in applying test techniques on projects.
-- Write test cases and report bugs clearly
-- Experience with Agile/Scrum development process
-- Familiar with Bug tracker such as Jira, TestRail...
-- Use AI to improve work efficiency
+- Bằng cử nhân ngành Computer Science, Engineering hoặc lĩnh vực liên quan.
+- Hơn 2 năm kinh nghiệm thực hành ở vai trò QE.
+- Có kinh nghiệm với test automation frameworks như Selenium, Playwright, Appium hoặc tương tự.
+- Có kinh nghiệm với các công cụ như JMeter, Postman là một lợi thế.
+- Có kinh nghiệm viết test cases mới dựa trên requirements.
+- Integration Test và phát triển test cases, test plan.
+- Hiểu biết tốt về software development methodologies.
+- Có kinh nghiệm áp dụng test techniques trong dự án.
+- Viết test cases và báo cáo bugs rõ ràng.
+- Có kinh nghiệm với Agile/Scrum development process.
+- Quen thuộc với bug tracker như Jira, TestRail...
+- Sử dụng AI để cải thiện hiệu quả công việc.
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+Ở vị trí Quality Engineer của ZaloPay, AI được nêu như công cụ cải thiện hiệu quả công việc, đặc biệt trong việc gợi ý test cases, tối ưu automation scripts, phân tích kết quả test và nhận diện khu vực cần regression. Tuy nhiên, trong sản phẩm thanh toán số, QA vẫn phải chịu trách nhiệm cuối cùng về coverage, traceability, defect triage và xác nhận deliverables đáp ứng functional/design requirements.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 6 screenshot 1](../Requirement_1/Screenshots/Job06/job06_01.png)
 ![Job 6 screenshot 2](../Requirement_1/Screenshots/Job06/job06_02.png)
@@ -455,108 +456,108 @@ TODO
 
 ### Job 7 – Senior QA Engineer (AI-Augmented Quality Engineering)
 
-- Company: Ins Enco
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4418876195/
-- Posting date: ~June 01, 2026 ("Reposted 5 days ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam — Vinhomes Grand Park, Long Bình, Thủ Đức (On-site, Full-time)
-- Salary: 30,000,000 – 40,000,000 VND gross/month (depending on experience) + performance-based bonuses + dedicated AI tools & learning budget
-- AI/LLM/automation-AI skills required: YES
+- Công ty: Ins Enco
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4418876195/
+- Ngày đăng: ~01/06/2026 (“Reposted 5 days ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam — Vinhomes Grand Park, Long Bình, Thủ Đức (On-site, Full-time)
+- Lương: 30.000.000 – 40.000.000 VND gross/tháng, tùy theo kinh nghiệm + performance-based bonuses + dedicated AI tools & learning budget
+- Yêu cầu kỹ năng AI/LLM/automation-AI: YES
 
-#### Job Description
+#### Mô tả công việc
 
-We are looking for a Senior QA Engineer to become a core quality pillar within our engineering team.
+Công ty đang tìm kiếm một Senior QA Engineer để trở thành trụ cột chất lượng cốt lõi trong engineering team.
 
-This is a full-cycle quality engineering role — combining test strategy, automation, CI/CD integration, and AI-powered tooling to not only detect defects, but prevent them at scale.
+Đây là một vai trò full-cycle quality engineering — kết hợp test strategy, automation, CI/CD integration và AI-powered tooling để không chỉ phát hiện defects mà còn ngăn ngừa defects ở quy mô lớn.
 
-**Key Responsibilities**
+**Trách nhiệm chính**
 
 **Test Strategy & Quality Design**
 
-- Design and maintain test strategies across manual, automated, and AI-assisted layers
+- Thiết kế và duy trì test strategies trên các lớp manual, automated và AI-assisted
 
-- Drive shift-left testing by validating requirements and designs early
+- Thúc đẩy shift-left testing bằng cách xác thực requirements và designs từ sớm
 
-- Write clear, reproducible test cases aligned with user stories and acceptance criteria
+- Viết test cases rõ ràng, có thể tái hiện, phù hợp với user stories và acceptance criteria
 
-- Perform exploratory, risk-based, and session-based testing
+- Thực hiện exploratory, risk-based và session-based testing
 
 **Automation Engineering**
 
-- Build and maintain E2E test suites using Playwright
+- Xây dựng và duy trì E2E test suites bằng Playwright
 
-- Develop API test collections using Postman / Bruno
+- Phát triển API test collections bằng Postman / Bruno
 
-- Integrate automated tests into CI/CD pipelines (GitHub Actions / Jenkins)
+- Tích hợp automated tests vào CI/CD pipelines như GitHub Actions / Jenkins
 
-- Implement AI self-healing frameworks (Mabl, Testim)
+- Triển khai AI self-healing frameworks như Mabl, Testim
 
-- Set up visual regression pipelines (Applitools, Percy)
+- Thiết lập visual regression pipelines như Applitools, Percy
 
 **AI-Augmented QA**
 
-- Use GPT / Claude to generate test cases, edge cases, and test data
+- Sử dụng GPT / Claude để tạo test cases, edge cases và test data
 
-- Analyse failure logs and identify root causes using AI tools
+- Phân tích failure logs và xác định root causes bằng AI tools
 
-- Leverage Postbot (Postman AI) to auto-generate API tests
+- Tận dụng Postbot (Postman AI) để tự động tạo API tests
 
-- Continuously evaluate and adopt emerging AI testing tools
+- Liên tục đánh giá và áp dụng các AI testing tools mới
 
 **Quality Ownership**
 
-- Monitor production quality using Sentry / Datadog
+- Theo dõi production quality bằng Sentry / Datadog
 
-- Participate in sprint ceremonies (planning, reviews, retrospectives)
+- Tham gia sprint ceremonies như planning, reviews, retrospectives
 
-- Produce test reports and communicate quality metrics
+- Tạo test reports và truyền đạt quality metrics
 
-- Conduct performance baseline testing using k6 / Lighthouse CI
+- Thực hiện performance baseline testing bằng k6 / Lighthouse CI
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
 **Must-Have**
 
-- 3–6 years of experience in QA / Quality Engineering
+- 3–6 năm kinh nghiệm trong QA / Quality Engineering
 
-- Strong hands-on experience with Playwright (E2E automation, CI integration, tracing)
+- Kinh nghiệm thực hành mạnh với Playwright, bao gồm E2E automation, CI integration, tracing
 
-- Solid API testing experience (Postman / Bruno, REST & GraphQL)
+- Kinh nghiệm API testing vững chắc với Postman / Bruno, REST & GraphQL
 
-- Experience with SQL / database validation
+- Kinh nghiệm với SQL / database validation
 
-- Proficiency with Git and CI/CD pipelines (GitHub Actions or similar)
+- Thành thạo Git và CI/CD pipelines như GitHub Actions hoặc tương tự
 
-- Experience working with Jira + Xray/Zephyr
+- Có kinh nghiệm làm việc với Jira + Xray/Zephyr
 
-- Strong understanding of Agile development processes
+- Hiểu rõ Agile development processes
 
-**AI-Essential (required for final-stage candidates)**
+**AI-Essential, yêu cầu cho ứng viên vào final-stage**
 
-- Hands-on experience using GPT / Claude for test generation and analysis
+- Có kinh nghiệm thực hành sử dụng GPT / Claude cho test generation và analysis
 
-- Familiarity with AI-driven testing tools (Mabl, Testim)
+- Quen thuộc với AI-driven testing tools như Mabl, Testim
 
-- Experience with visual AI testing (Applitools / Percy)
+- Có kinh nghiệm với visual AI testing như Applitools / Percy
 
-- Exposure to Postbot / AI-generated API testing workflows
+- Có tiếp xúc với Postbot / AI-generated API testing workflows
 
 **Nice to Have**
 
-- Performance testing tools (k6, Artillery)
+- Performance testing tools như k6, Artillery
 
-- Security testing (OWASP ZAP, Snyk)
+- Security testing như OWASP ZAP, Snyk
 
-- Observability tools (Sentry, Datadog)
+- Observability tools như Sentry, Datadog
 
-- ISTQB certification (AI testing module is a plus)
+- ISTQB certification, AI testing module là một lợi thế
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+AI là một phần thiết yếu của vai trò Senior QA Engineer này vì công việc yêu cầu dùng GPT/Claude, AI self-healing frameworks, visual AI testing và Postbot để mở rộng test generation, failure analysis, API testing và visual regression. Tác động chính là QA chuyển từ chỉ viết và chạy test sang thiết kế chiến lược kiểm thử có AI hỗ trợ, đồng thời vẫn phải kiểm soát risk-based testing, quality metrics và quyết định chất lượng cuối cùng.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 7 screenshot 1](../Requirement_1/Screenshots/Job07/job07_01.png)
 ![Job 7 screenshot 2](../Requirement_1/Screenshots/Job07/job07_02.png)
@@ -566,57 +567,57 @@ TODO
 
 ### Job 8 – Senior Automation Test Engineer (Test Lead)
 
-- Company: KMS Technology, Inc. (U.S.-based, global offices in Vietnam, Mexico, Poland)
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4419660521/
-- Posting date: ~June 04, 2026 ("2 days ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (Hybrid, Full-time)
-- Salary: Not disclosed (ncludes annual performance bonus, premium healthcare for employee + family, onsite assignments in US/Canada/Europe)
-- AI/LLM/automation-AI skills required: YES
+- Công ty: KMS Technology, Inc., công ty có trụ sở tại Mỹ và văn phòng toàn cầu tại Việt Nam, Mexico, Poland
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4419660521/
+- Ngày đăng: ~04/06/2026 (“2 days ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (Hybrid, Full-time)
+- Lương: Không công bố. Phúc lợi bao gồm annual performance bonus, premium healthcare cho employee + family, onsite assignments tại US/Canada/Europe
+- Yêu cầu kỹ năng AI/LLM/automation-AI: YES
 
-#### Job Description
+#### Mô tả công việc
 
-- Execute all testing activities to improve product quality, work closely with the team (developers, business analysis, customer service, operation, etc.) to deliver the product success
-- Address the test automation needs in a methodical, detail-oriented manner with the help of robust analytical skills and problem-solving capacity
-- Automate functional, regression and/or performance acceptance tests
-- Have complete responsibility to enhance end-to-end automated test coverage
-- Participate in sprint planning and work closely with the Scrum team to analyze requirements and provide necessary test recommendations
+- Thực hiện toàn bộ testing activities để cải thiện product quality, làm việc chặt chẽ với team như developers, business analysis, customer service, operation, v.v. nhằm đảm bảo product success
+- Xử lý nhu cầu test automation một cách có phương pháp, chú trọng chi tiết, với sự hỗ trợ của kỹ năng phân tích và giải quyết vấn đề mạnh
+- Tự động hóa functional, regression và/hoặc performance acceptance tests
+- Chịu trách nhiệm đầy đủ trong việc nâng cao end-to-end automated test coverage
+- Tham gia sprint planning và làm việc chặt chẽ với Scrum team để phân tích requirements và đưa ra test recommendations cần thiết
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
-**General Requirements:**
+**Yêu cầu chung:**
 
-- At least an intermediate skill level of English.
-- Around 4+ years of experience in creating and running automated tests on a web/API
-- Methodical and detail-oriented, with solid analytical skills and problem-solving ability
-- Strong dedication to quality and a positive, collaborative attitude and approach to testing
-- Good knowledge of the software development lifecycle (SDLC) and agile methodologies
-- Able to self-learn and quickly adapt to new technologies
+- Trình độ tiếng Anh ít nhất ở mức intermediate.
+- Khoảng hơn 4 năm kinh nghiệm tạo và chạy automated tests trên web/API
+- Làm việc có phương pháp, chú trọng chi tiết, có kỹ năng phân tích và giải quyết vấn đề tốt
+- Có sự tận tâm mạnh mẽ với chất lượng và thái độ kiểm thử tích cực, hợp tác
+- Hiểu biết tốt về software development lifecycle (SDLC) và agile methodologies
+- Có khả năng tự học và nhanh chóng thích nghi với công nghệ mới
 
-**Technical Requirements**
+**Yêu cầu kỹ thuật**
 
-- Deep domain knowledge of UI, API, mobile/desktop app testing
-- Solid testing experiences (test strategy, test approach, test plan, test techniques included black box, risk-based, exploratory, Non-UI testing, etc.)
-- Strong experience in Automation testing using frameworks such as Selenium/Katalon/Karate/Cucumber/Playwright, etc.
-- Proficient in coding with Java/JavaScript/etc.
-- Hands-on experience in using test tools like Mocha / Chai / Jasmine / TestNG / Nightwatch/ Protractor/ etc.
-- Experience in CI/CD (Apache Airflow, GitLab, GitHub Action, JenKins, etc.)
+- Hiểu biết sâu về UI, API, mobile/desktop app testing
+- Có kinh nghiệm testing vững chắc, bao gồm test strategy, test approach, test plan, test techniques như black box, risk-based, exploratory, Non-UI testing, v.v.
+- Kinh nghiệm mạnh về Automation testing với các frameworks như Selenium/Katalon/Karate/Cucumber/Playwright, v.v.
+- Thành thạo coding với Java/JavaScript/v.v.
+- Có kinh nghiệm thực hành với test tools như Mocha / Chai / Jasmine / TestNG / Nightwatch / Protractor / v.v.
+- Có kinh nghiệm CI/CD như Apache Airflow, GitLab, GitHub Action, Jenkins, v.v.
 
 **Nice to have:**
 
-- Experience in Performance and Security testing
-- Proficient daily use of AI coding tools (Copilot, Cursor, Claude Code) across the full SDLC
-- Able to decompose complex tasks, provide effective context, and apply chain-of-thought and multi-step prompting workflows
-- Experience with agentic workflows and AI-driven development frameworks
-- Hands-on experience integrating AI tools with other systems via MCP (Model Context Protocol) or equivalent
-- Awareness of emerging AI tools and willingness to evaluate and adopt new capabilities
+- Kinh nghiệm Performance và Security testing
+- Sử dụng AI coding tools hằng ngày một cách thành thạo, như Copilot, Cursor, Claude Code, trong toàn bộ SDLC
+- Có khả năng phân rã các task phức tạp, cung cấp context hiệu quả và áp dụng chain-of-thought cùng multi-step prompting workflows
+- Có kinh nghiệm với agentic workflows và AI-driven development frameworks
+- Có kinh nghiệm thực hành tích hợp AI tools với các hệ thống khác thông qua MCP (Model Context Protocol) hoặc tương đương
+- Có nhận thức về các AI tools mới nổi và sẵn sàng đánh giá, áp dụng các năng lực mới
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+Với vai trò Senior Automation Test Engineer/Test Lead, AI không thay thế nền tảng automation nhưng nâng kỳ vọng về năng suất thông qua Copilot, Cursor, Claude Code, prompting workflows và agentic workflows trong toàn bộ SDLC. Người QA lead vẫn cần năng lực phân rã yêu cầu, thiết kế test strategy, kiểm soát end-to-end automated coverage và đánh giá khi nào kết quả do AI hỗ trợ là đáng tin cậy.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 8 screenshot 1](../Requirement_1/Screenshots/Job08/job08_01.png)
 ![Job 8 screenshot 2](../Requirement_1/Screenshots/Job08/job08_02.png)
@@ -627,102 +628,102 @@ TODO
 
 ### Job 9 – Software Development Engineer in Test (AI-First)
 
-- Company: OPSWAT
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4405677328
-- Posting date: ~May 30, 2026 ("Reposted 1 week ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (Full-time)
-- Salary: Not disclosed
-- AI/LLM/automation-AI skills required: YES
+- Công ty: OPSWAT
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4405677328
+- Ngày đăng: ~30/05/2026 (“Reposted 1 week ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (Full-time)
+- Lương: Không công bố
+- Yêu cầu kỹ năng AI/LLM/automation-AI: YES
 
-#### Job Description
+#### Mô tả công việc
 
-OPSWAT, a global leader in IT, OT, and ICS critical infrastructure cybersecurity, delivers an end-to-end platform that gives public and private sector organizations and enterprises the critical advantage needed to protect their complex networks, secure their devices, and ensure compliance. Over the last 20 years our commitment to innovative technology has earned the trust of more than 1,700 organizations, governments, and institutions globally, solidifying our role in protecting the world’s critical infrastructure and securing our way of life.
+OPSWAT, công ty hàng đầu toàn cầu trong lĩnh vực IT, OT và ICS critical infrastructure cybersecurity, cung cấp một nền tảng end-to-end giúp các tổ chức công và tư nhân cũng như doanh nghiệp có lợi thế quan trọng trong việc bảo vệ các mạng lưới phức tạp, bảo mật thiết bị và đảm bảo tuân thủ. Trong hơn 20 năm, cam kết của công ty đối với công nghệ đổi mới đã tạo được sự tin cậy từ hơn 1.700 tổ chức, chính phủ và định chế trên toàn cầu, củng cố vai trò của OPSWAT trong việc bảo vệ critical infrastructure và đảm bảo an toàn cho cuộc sống hiện đại.
 
-**The Position**
+**Vị trí này**
 
-We are seeking a highly skilled and forward-thinking **Software Development Engineer in Test (SDET)** to join our OESIS Framework team. This role focuses on ensuring the quality, reliability, and integration of our OESIS across diverse environments through an automation-first and AI-driven testing approach.
+Công ty đang tìm kiếm một Software Development Engineer in Test (SDET) có kỹ năng cao và tư duy hướng tương lai để tham gia OESIS Framework team. Vai trò này tập trung vào việc đảm bảo chất lượng, độ tin cậy và khả năng integration của OESIS trên nhiều môi trường khác nhau thông qua phương pháp automation-first và AI-driven testing.
 
-You will design intelligent test systems, validate OESIS behavior at system and integration levels, and leverage AI/ML techniques to enhance test effectiveness and efficiency.
+Ứng viên sẽ thiết kế intelligent test systems, xác thực hành vi của OESIS ở cấp độ system và integration, đồng thời tận dụng AI/ML techniques để nâng cao hiệu quả và hiệu suất testing.
 
-**What you will be doing:**
+**Bạn sẽ làm gì:**
 
 **Automation & OESIS Quality Engineering**
 
-- Design, develop, and maintain scalable automated test frameworks for OESIS validation (preferably using Robot Framework and Python).
-- Drive an automation-first testing strategy for OESIS components and integrations.
-- Ensure high test coverage across:
-- Functional and regression testing
-- API and integration testing
-- System-level and compatibility testing
-- Analyze test results, identify defects, and work closely with developers to resolve issues.
+- Thiết kế, phát triển và duy trì scalable automated test frameworks để xác thực OESIS, ưu tiên Robot Framework và Python.
+- Thúc đẩy automation-first testing strategy cho các OESIS components và integrations.
+- Đảm bảo test coverage cao trên các mảng:
+- Functional và regression testing
+- API và integration testing
+- System-level và compatibility testing
+- Phân tích test results, xác định defects và làm việc chặt chẽ với developers để xử lý issues.
 
 **AI-First Testing Innovation**
 
-- Apply AI/ML techniques to improve test coverage, defect detection, and test maintenance.
-- Explore and implement:
+- Áp dụng AI/ML techniques để cải thiện test coverage, defect detection và test maintenance.
+- Khám phá và triển khai:
 - Intelligent test generation
 - Self-healing automation
-- Smart test selection and failure analysis
-- Continuously evaluate new AI-driven testing tools and approaches.
+- Smart test selection và failure analysis
+- Liên tục đánh giá các AI-driven testing tools và approaches mới.
 
 **Shift-Left & Agile Collaboration**
 
-- Collaborate early with developers and product managers to improve testability and define quality criteria.
-- Contribute to test strategy, design reviews, and requirement analysis.
-- Actively participate in Agile/Scrum ceremonies and align testing with sprint goals.
+- Hợp tác sớm với developers và product managers để cải thiện testability và xác định quality criteria.
+- Đóng góp vào test strategy, design reviews và requirement analysis.
+- Chủ động tham gia Agile/Scrum ceremonies và điều chỉnh testing phù hợp với sprint goals.
 
 **OESIS & Integration Testing**
 
-- Validate OESIS functionality across different operating systems, environments, and third-party integrations.
-- Perform API testing (RESTful services) using tools like Postman or custom scripts.
-- Ensure OESIS reliability, backward compatibility, and ease of integration for customers.
+- Xác thực OESIS functionality trên nhiều operating systems, environments và third-party integrations khác nhau.
+- Thực hiện API testing với RESTful services bằng tools như Postman hoặc custom scripts.
+- Đảm bảo OESIS reliability, backward compatibility và tính dễ integration cho customers.
 
 **CI Integration & Continuous Testing**
 
-- Integrate automated tests into CI pipelines (e.g., Jenkins, GitHub Actions).
-- Support continuous testing practices to ensure fast and reliable feedback cycles.
+- Tích hợp automated tests vào CI pipelines, ví dụ Jenkins, GitHub Actions.
+- Hỗ trợ continuous testing practices để đảm bảo feedback cycles nhanh và đáng tin cậy.
 
 **Quality & Continuous Improvement**
 
-- Investigate and reproduce customer-reported OESIS issues.
-- Continuously improve automation frameworks, test coverage, and QA processes.
-- Promote a quality-first mindset within the team.
+- Điều tra và tái hiện các OESIS issues do customers báo cáo.
+- Liên tục cải thiện automation frameworks, test coverage và QA processes.
+- Thúc đẩy quality-first mindset trong team.
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
-**What We Need From You**
+**Công ty cần gì từ bạn**
 
-- Proven experience as a QA Automation Engineer/SDET (2 years minimum).
-- Strong experience building or maintaining automation frameworks (Robot Framework preferred, or similar tools) (2 years minimum).
-- Solid programming skills in Python (or Java/Groovy) (2 years minimum).
-- Strong understanding of software testing methodologies (functional, regression, exploratory).
-- Hands-on experience with API testing.
-- Experience with CI pipelines and version control (Git) (1 years minimum)..
-- Experience working in Agile/Scrum environments.
-- Strong analytical and problem-solving skills with attention to detail.
-- Good English communication skills is a plus.
+- Có kinh nghiệm thực tế ở vai trò QA Automation Engineer/SDET, tối thiểu 2 năm.
+- Kinh nghiệm mạnh trong việc xây dựng hoặc duy trì automation frameworks, ưu tiên Robot Framework hoặc công cụ tương tự, tối thiểu 2 năm.
+- Kỹ năng lập trình tốt với Python hoặc Java/Groovy, tối thiểu 2 năm.
+- Hiểu rõ software testing methodologies như functional, regression, exploratory.
+- Có kinh nghiệm thực hành API testing.
+- Có kinh nghiệm với CI pipelines và version control như Git, tối thiểu 1 năm.
+- Có kinh nghiệm làm việc trong môi trường Agile/Scrum.
+- Kỹ năng phân tích và giải quyết vấn đề tốt, chú ý đến chi tiết.
+- Kỹ năng giao tiếp tiếng Anh tốt là một lợi thế.
 
-**AI-Focused Skills (Highly Preferred)**
+**AI-Focused Skills, ưu tiên cao**
 
-- Understanding of AI/ML concepts in software testing.
-- Experience applying AI tools to improve testing efficiency or coverage.
-- Interest in building AI-driven QA practices.
+- Hiểu các khái niệm AI/ML trong software testing.
+- Có kinh nghiệm áp dụng AI tools để cải thiện testing efficiency hoặc coverage.
+- Quan tâm đến việc xây dựng AI-driven QA practices.
 
-**It Would Be Nice If You Have**
+**Sẽ là lợi thế nếu bạn có**
 
-- Experience testing SDKs, libraries, or system-level software.
-- Knowledge of cross-platform testing (Windows, Linux, macOS).
-- Experience with performance or reliability testing (e.g., JMeter).
-- Familiarity with debugging tools and logs for low-level/system issues.
-- Bachelor’s degree in Computer Science, Software Engineering, or related field.
+- Kinh nghiệm testing SDKs, libraries hoặc system-level software.
+- Kiến thức về cross-platform testing trên Windows, Linux, macOS.
+- Kinh nghiệm với performance hoặc reliability testing, ví dụ JMeter.
+- Quen thuộc với debugging tools và logs cho low-level/system issues.
+- Bằng cử nhân ngành Computer Science, Software Engineering hoặc lĩnh vực liên quan.
 
-#### AI Impact Analysis
+#### Phân tích tác động của AI
 
-TODO
+AI tác động trực tiếp đến SDET này vì job yêu cầu automation-first và AI-driven testing cho OESIS, bao gồm intelligent test generation, self-healing automation, smart test selection và failure analysis. Do sản phẩm liên quan đến cybersecurity và integration trên nhiều môi trường, kỹ năng AI phải đi kèm với Python/Robot Framework, API/system testing và khả năng con người phân tích lỗi, tương thích và rủi ro bảo mật.
 
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 9 screenshot 1](../Requirement_1/Screenshots/Job09/job09_01.png)
 ![Job 9 screenshot 2](../Requirement_1/Screenshots/Job09/job09_02.png)
@@ -733,16 +734,16 @@ TODO
 
 ### Job 10 – QC Automation Engineer
 
-- Company: Rainscales
-- Platform: Linkedln
-- Job link: https://www.linkedin.com/jobs/view/4418560816/
-- Posting date: ~May 30, 2026 ("1 week ago" as of June 6, 2026)
-- Dated screenshot: June 06, 2026
-- Location: Ho Chi Minh City, Vietnam (On-site, Full-time)
-- Salary: Not disclosed
-- AI/LLM/automation-AI skills required: YES
+- Công ty: Rainscales
+- Nền tảng: LinkedIn
+- Link công việc: https://www.linkedin.com/jobs/view/4418560816/
+- Ngày đăng: ~30/05/2026 (“1 week ago” tính đến ngày 06/06/2026)
+- Ảnh chụp có ngày: 06/06/2026
+- Địa điểm: Thành phố Hồ Chí Minh, Việt Nam (On-site, Full-time)
+- Lương: Không công bố
+- Yêu cầu kỹ năng AI/LLM/automation-AI: YES
 
-#### Job Description
+#### Mô tả công việc
 
 - Automation: Thiết kế, phát triển và bảo trì automation test framework/script cho Web UI và API. Tối ưu execution time và nâng cao độ ổn định của test script;
 
@@ -756,7 +757,7 @@ TODO
 
 - Cải tiến: Đề xuất giải pháp tối ưu quy trình testing và hỗ trợ tích hợp automation test vào CI/CD pipeline khi có yêu cầu.
 
-#### Required Skills
+#### Kỹ năng yêu cầu
 
 **YÊU CẦU BẮT BUỘC (MUST-HAVE SKILLS):**
 
@@ -783,17 +784,13 @@ TODO
 
 - Có kinh nghiệm review automation code hoặc xây dựng coding convention cho team;
 
-- Có hiểu biết về test strategy, test pyramid, automation coverage và mô hình
+- Có hiểu biết về test strategy, test pyramid, automation coverage và mô hình Agile/Scrum.
 
-Agile/Scrum.
+#### Phân tích tác động của AI
 
-#### AI Impact Analysis
+AI là một hướng mở rộng rõ ràng trong vị trí QC Automation Engineer vì ứng viên tham gia xây dựng framework cho AI Automation Testing và mở rộng automation coverage cho các bài toán kiểm thử liên quan đến AI. Tuy nhiên, nền tảng quan trọng vẫn là Python, Selenium/Playwright, API/database testing và khả năng manual testing để hiểu business flow trước khi tự động hóa hoặc áp dụng AI vào coverage.
 
-TODO
-
-#### Screenshot
+#### Ảnh chụp màn hình
 
 ![Job 10 screenshot 1](../Requirement_1/Screenshots/Job10/job10_01.png)
 ![Job 10 screenshot 2](../Requirement_1/Screenshots/Job10/job10_02.png)
-
----
