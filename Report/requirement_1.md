@@ -794,3 +794,7 @@ AI là một hướng mở rộng rõ ràng trong vị trí QC Automation Engine
 
 ![Job 10 screenshot 1](../Requirement_1/Screenshots/Job10/job10_01.png)
 ![Job 10 screenshot 2](../Requirement_1/Screenshots/Job10/job10_02.png)
+
+---
+
+Tham khảo thêm artifact G9.1: [Mindmap vai trò QA/QC theo ISTQB và quy trình kiểm thử](qa_qc_role_mindmap.md).

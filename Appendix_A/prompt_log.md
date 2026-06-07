@@ -1724,12 +1724,111 @@ Done when:
 
 ### AI output
 
-```text
-[STUDENT TODO: paste the AI output or add screenshots of Cursor output after running the prompt]
-```
+The AI output was captured as annotated Cursor screenshots because the response and file-generation summary were shown across multiple visible sections. The screenshots below preserve the visible AI output for the Requirement 3 Excel artifact generation.
+
+#### Screenshot 1 – AI output part 1/4
+
+![Entry 8 AI output screenshot 1](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Entry8\entry8_01.png)
+
+#### Screenshot 2 – AI output part 2/4
+
+![Entry 8 AI output screenshot 2](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Entry8\entry8_02.png)
+
+#### Screenshot 3 – AI output part 3/4
+
+![Entry 8 AI output screenshot 3](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Entry8\entry8_03.png)
+
+#### Screenshot 4 – AI output part 4/4
+
+![Entry 8 AI output screenshot 4](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Entry8\entry8_04.png)
 
 ### Student review note
 
 ```text
-[STUDENT TODO: after reviewing the generated Excel file, state whether the file was accepted as-is or manually corrected. Mention any student fixes such as adjusting column widths, adding missing TODO fields, or correcting any fabricated result if the AI produced one.]
+I reviewed the generated Requirement 3 Excel artifacts and accepted the incremental structure: Test Cases, Checklist, and Test Summary Report. I manually corrected formatting/encoding issues in Excel and kept execution-specific fields as TODO, Chưa thực thi, Not Yet Tested, or blank because the physical kettle tests had not been executed yet. No actual results, defects, videos, screenshots, GitHub Issues, or pass/fail outcomes were fabricated.
+```
+
+## Entry 9 – G9.1 QA/QC Role Mindmap
+
+- **Timestamp:** 10:51 07/06/2026
+- **AI tool used:** GPT-5.5 (OpenAI)
+- **Platform**: Cursor IDE
+- **Files attached / used:**
+  - `Report/requirement_1.md`
+  - `Report/qa_qc_role_mindmap.md`
+
+### Prompt
+
+````text
+You are helping me complete G9.1 Understand for my Software Testing HW01 assignment.
+
+Context:
+- Requirement 1 is about QA/QC job market research.
+- G9.1 requires me to ask an AI tool to create a QA/QC role mindmap based on ISTQB and software testing process concepts.
+- After receiving the mindmap, I will review it myself and identify 3 mistakes or incomplete points.
+- This first step is only to generate the initial AI mindmap artifact.
+- Do NOT intentionally insert mistakes.
+- Do NOT tell me which parts are wrong.
+- Do NOT provide the correction section yet.
+- Do NOT invent the 3 mistakes for me.
+- Write in Vietnamese.
+- The target file to create is Report/qa_qc_role_mindmap.md.
+- Also update Report/requirement_1.md by adding only a short reference line near the end that points to Report/qa_qc_role_mindmap.md.
+
+Task:
+Read Report/requirement_1.md to understand the current Requirement 1 report context and tone.
+Then create Report/qa_qc_role_mindmap.md with the initial AI-generated mindmap.
+
+The mindmap should cover:
+1. QA vs QC responsibilities
+2. Software testing lifecycle / test process
+3. Test levels
+4. Test types
+5. Test design techniques
+6. Defect reporting and tracking
+7. Test automation
+8. Risk-based testing
+9. Communication with developers, business analysts, product owners, and users
+10. AI-assisted testing in modern QA/QC work
+
+Output structure for Report/qa_qc_role_mindmap.md:
+
+# G9.1 – Mindmap vai trò QA/QC theo ISTQB và quy trình kiểm thử
+
+## 1. Mục tiêu
+
+Briefly explain that this artifact supports G9.1 Understand by asking AI to generate a QA/QC role mindmap for later student review.
+
+## 2. AI-generated mindmap
+
+Provide the mindmap in Markdown tree format:
+
+- QA/QC Role
+  - Branch
+    - Sub-branch
+      - Detail
+
+## 3. Student review placeholder
+
+Add this placeholder only:
+
+```text
+[STUDENT TODO: Sau khi rà soát mindmap AI, ghi 3 lỗi hoặc điểm chưa đầy đủ tại đây.]
+````
+
+@Report/requirement_1.md
+
+```
+
+### AI output
+
+The AI created `Report/qa_qc_role_mindmap.md` in Vietnamese with the requested G9.1 structure: objective, AI-generated QA/QC role mindmap, and the student review placeholder. The AI also added a short reference line near the end of `Report/requirement_1.md` pointing to `Report/qa_qc_role_mindmap.md`.
+
+#### Screenshot 1 – AI output part 1/2
+
+![Entry 9 AI output screenshot 1](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Entry9\entry9_01.png)
+
+#### Screenshot 2 – AI output part 2/2
+
+![Entry 9 AI output screenshot 2](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Entry9\entry9_02.png)
 ```
