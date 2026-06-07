@@ -1250,7 +1250,6 @@ Verification: 20 entries, 8 AI/LLM entries, 0 TODOs remaining, no lint errors.
 - **Timestamp:** 22:25 06/06/2026
 - **AI tool used:** GPT-5.5 (OpenAI)
 - **Platform**: Cursor IDE
-- **Source prompt:** selected prompt text from `Appendix_A/prompt_log.md` lines 789-888
 - **Target output file generated:** `Report/requirement_3.md`
 
 ### Prompt
@@ -1454,6 +1453,18 @@ Verification:
 - Checked lints for `Report/requirement_3.md`; no linter errors found.
 ```
 
+### Supporting screenshots for AI-missed edge case audit
+
+The screenshots below document the baseline AI output for Requirement 3. They are used as supporting evidence that the initial AI-generated baseline did not include the later student-added edge cases for lifting the kettle off the base while heating, placing the kettle slightly misaligned on the power base, or reheating while the water was still hot after auto shut-off.
+
+#### Baseline AI output screenshot 1
+
+![Entry 6 baseline AI output showing missing edge cases 1](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Edge_cases\Edge-case_01.png)
+
+#### Baseline AI output screenshot 2
+
+![Entry 6 baseline AI output showing missing edge cases 2](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Edge_cases\Edge-case_02.png)
+
 ## Entry 7 – Requirement 3 Student Fix for Weak Test Cases
 
 - **Timestamp:** 23:18 06/06/2026
@@ -1461,7 +1472,6 @@ Verification:
 - **Platform:** Cursor IDE
 - **Files attached / used:**
   - `Report/requirement_3.md`
-  - `Appendix_A/prompt_log.md`
   - `HW01.md`
 - **Target output file edited:** `Report/requirement_3.md`
 
@@ -1556,15 +1566,15 @@ Done when:
 
 The AI output was shown in Cursor as a diff/summary rather than as one continuous Markdown response. The labelled screenshots below capture the verbatim visible AI output, including the replacement edits, the new Section 8, and verification status.
 
-#### Screenshot 1 – Final AI summary and verification
+#### Screenshot 1
 
 ![Entry 7 AI output screenshot 1](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\entry7_01.png)
 
-#### Screenshot 2 – Cursor diff showing TC-KETTLE-14, TC-KETTLE-15, Section 5, and Section 8 edits
+#### Screenshot 2
 
 ![Entry 7 AI output screenshot 2](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\entry7_02.png)
 
-#### Screenshot 3 – Cursor diff showing TC-KETTLE-04 and TC-KETTLE-14 replacements
+#### Screenshot 3
 
 ![Entry 7 AI output screenshot 3](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\entry7_03.png)
 
@@ -1592,4 +1602,134 @@ Verification performed:
 
 ```text
 I reviewed the AI-applied edits and accepted the replacement of weak baseline cases with stronger kettle-specific edge cases. The final student-fixed report keeps actual results, verdicts, screenshots, videos, defects, and GitHub Issues as placeholders until physical execution on the real kettle. I will add real evidence manually after executing the selected test cases.
+```
+
+## Entry 8 – Requirement 3 Excel Test Artifacts
+
+- **Timestamp:** 23:53 06/06/2026
+- **AI tool used:** GPT-5.5 (OpenAI)
+- **Platform:** Cursor IDE
+- **Files attached / used:**
+  - `Report/requirement_3.md`
+  - `HW01.md`
+- **Target output file to create:** `Excel/requirement_3_test_artifacts.xlsx`
+
+### Student intent before prompting
+
+```text
+I finished the Requirement 3 report draft and need to create the required Excel artifacts before executing the physical kettle tests. The Excel file should be incremental: it should contain the current planned test cases, checklist, and summary structure, but must not invent actual results, video evidence, defects, GitHub Issue links, or final verdicts before I test the real kettle.
+```
+
+### Prompt
+
+```text
+You are helping me create the Excel artifacts for Requirement 3 of my Software Testing HW01 assignment.
+
+Context:
+- The product under test is a real rapid boil kettle / ấm siêu tốc.
+- The source file is Report/requirement_3.md.
+- The report already contains 15 test cases, planned video executions, defect placeholders, GitHub Issue placeholders, and AI-missed edge cases.
+- I have not executed the physical tests yet, so actual results and defects must remain unfinished until I test the real kettle.
+
+Task:
+Create an Excel workbook at Excel/requirement_3_test_artifacts.xlsx.
+
+The workbook must contain exactly these 3 sheets:
+
+1. Test Cases
+2. Checklist
+3. Test Summary Report
+
+Sheet 1: Test Cases
+- Include all 15 test cases from Report/requirement_3.md.
+- Use these columns:
+  - Test Case ID
+  - Objective
+  - Input
+  - Steps
+  - Expected Result
+  - Actual Result
+  - Verdict
+  - Evidence / Video Link
+  - Notes
+  - Edge Case?
+  - AI-missed Edge Case?
+- Keep actual results, verdicts, and evidence as TODO or Chưa thực thi unless Report/requirement_3.md already contains real executed data.
+- Mark TC-KETTLE-04, TC-KETTLE-14, and TC-KETTLE-15 as edge cases and AI-missed edge cases.
+- Do not invent test results, videos, screenshots, defects, dates, or GitHub Issue links.
+
+Sheet 2: Checklist
+- Create a practical execution checklist for the planned physical test session.
+- Include these columns:
+  - Checklist ID
+  - Category
+  - Item
+  - Status
+  - Evidence Needed
+  - Notes
+- Include checklist items for:
+  - Device identity photo with student card
+  - Safe test area
+  - Water level within allowed range
+  - Power base and cable visual check
+  - Video length under 60 seconds
+  - Actual result recorded
+  - Verdict recorded
+  - Defect recorded only if observed
+  - GitHub Issue created only for confirmed defects
+  - AI-missed edge case evidence screenshots kept
+- Keep Status as TODO or Not Started.
+
+Sheet 3: Test Summary Report
+- Create an incremental summary sheet that can be updated after testing.
+- Use these columns:
+  - Metric
+  - Current Value
+  - Target / Requirement
+  - Notes
+- Include rows for:
+  - Total test cases designed
+  - Test cases planned for video execution
+  - Test cases executed
+  - Passed test cases
+  - Failed test cases
+  - Confirmed defects
+  - GitHub Issues created
+  - AI-missed edge cases documented
+  - Evidence videos under 60 seconds
+  - Remaining student actions
+- Use the current state honestly. For example, designed test cases can be 15, planned video executions can match the report, but executed test cases, pass/fail counts, confirmed defects, and GitHub Issues should stay 0 or TODO until real testing is done.
+
+Formatting requirements:
+- Make headers bold.
+- Freeze the header row in each sheet.
+- Auto-fit or set readable column widths.
+- Wrap text for long fields like Steps and Expected Result.
+- Keep the workbook readable for grading.
+
+Important constraints:
+- Do not modify Report/requirement_3.md.
+- Do not fabricate actual results, defect details, dates, evidence links, screenshots, videos, or GitHub Issues.
+- Do not remove or rename the required sheets.
+- If the Excel folder does not exist, create it.
+
+Done when:
+- Excel/requirement_3_test_artifacts.xlsx exists.
+- It contains exactly the 3 required sheets.
+- The Test Cases sheet contains all 15 test cases.
+- The Checklist sheet contains execution-preparation items.
+- The Test Summary Report sheet is incremental and does not claim unperformed testing is complete.
+- The workbook is formatted clearly enough for submission.
+```
+
+### AI output
+
+```text
+[STUDENT TODO: paste the AI output or add screenshots of Cursor output after running the prompt]
+```
+
+### Student review note
+
+```text
+[STUDENT TODO: after reviewing the generated Excel file, state whether the file was accepted as-is or manually corrected. Mention any student fixes such as adjusting column widths, adding missing TODO fields, or correcting any fabricated result if the AI produced one.]
 ```

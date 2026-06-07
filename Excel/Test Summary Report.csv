@@ -1,0 +1,14 @@
+TEST SUMMARY REPORT,,,,,,,,,,
+Project Name,,HW01 - Ki?m th? Yêu c?u 3 cho ?m siêu t?c,,,Reviewer,,Ân Ti?n Nguyên An - 23127148,,,
+Creator,,Ân Ti?n Nguyên An - 23127148,,,Approver,,Ân Ti?n Nguyên An - 23127148,,,
+Note,,,,,,,,,,
+,Test Coverage:,67%,,,,,,,,
+,Successful Test Coverage:,33%,,,,,,,Date:,2026-06-07
+,,,,,,,,,,
+No,Requirement ID,Requirement name,Tested,Passed,Failed,Blocked,Skipped,Not Yet Tested,Total,Tested Coverage
+1,R3-TC-DESIGN,"T?t c? test cases ?ã ???c thi?t k?, nh?ng ki?m th? v?t lý ch?a b?t ??u.",0,0,0,0,0,15,15,0%
+2,R3-VIDEO-EXECUTION,T?ng s? l?y t? các dòng quay video d? ki?n trong Section 5 c?a Report/requirement_3.md.,0,0,0,0,0,10,10,0%
+3,R3-DEFECTS,Có 5 slot defect m?c tiêu; ch?a có defect nào ???c xác nh?n tr??c khi th?c thi v?t lý.,0,0,0,0,0,5,5,0%
+4,R3-AI-EDGE,"Report ?ã có screenshot references và gi?i thích b?ng v?n b?n cho TC-KETTLE-04, TC-KETTLE-14 và TC-KETTLE-15.",3,3,0,0,0,0,3,100%
+5,R3-GITHUB-ISSUES,Có 5 slot GitHub Issue m?c tiêu cho defect ?ã xác nh?n; không t?o issue tr??c khi xác nh?n defect th?t.,0,0,0,0,0,5,5,0%
+<<< Insert New Line above this line >>>,,Total,3,3,0,0,0,35,38,67%
