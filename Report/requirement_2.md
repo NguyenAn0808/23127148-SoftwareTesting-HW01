@@ -1,5 +1,7 @@
 # Requirement 2 – 20 lỗi phần mềm từ 2022–2026
 
+Ghi chú về phần `AI Hallucination/Bias or Limitation Instance`: theo yêu cầu HW01, mỗi lỗi bên dưới có một điểm AI giải thích sai, thiên lệch hoặc chưa đầy đủ. Không phải mục nào cũng là ảo giác nghiêm trọng hoặc thiên lệch rõ ràng; nếu AI giải thích đúng ý chính nhưng còn thiếu điều kiện, thiếu số liệu, dùng từ quá rộng hoặc làm mềm mức độ rủi ro, phần nhận xét sẽ ghi rõ đó là thiếu sót/giản lược nhỏ có bằng chứng.
+
 ### Lỗi 1 – F5 BIG-IP iControl REST Authentication Bypass
 
 - Năm công bố: 2022
@@ -17,8 +19,8 @@ Kẻ tấn công có thể chiếm quyền hoàn toàn các thiết bị BIG-IP 
 #### Giải pháp
 F5 phát hành bản vá ngày 04/05/2022. Các tổ chức cần cập nhật ngay lên phiên bản không bị ảnh hưởng (17.x không bị ảnh hưởng) và giới hạn truy cập vào giao diện quản trị.
 
-#### AI Hallucination Instance
-AI giải thích đúng ý chính nhưng bị đơn giản hóa: nguồn gốc nêu rõ các header cụ thể `Connection`, `X-F5-Auth-Token` và `Host: localhost`, còn AI chỉ nói chung là "manipulated headers". Đây là thiếu chi tiết kỹ thuật quan trọng hơn là ảo giác nghiêm trọng.
+#### AI Hallucination/Bias or Limitation Instance
+AI không bịa ra cơ chế chính, nhưng bị giản lược kỹ thuật: AI chỉ nói kẻ tấn công dùng "manipulated headers", trong khi phần mô tả đã nêu rõ các header cụ thể `Connection`, `X-F5-Auth-Token` và `Host: localhost`. Vì vậy đây là một thiếu sót/giản lược nhỏ có bằng chứng, không phải ảo giác nghiêm trọng.
 
 ---
 
@@ -39,8 +41,8 @@ Các ứng dụng Spring MVC/WebFlux được triển khai dạng WAR trên Apac
 #### Giải pháp
 Nâng cấp lên Spring Framework 5.3.18+ hoặc 5.2.20+, đồng thời nâng cấp Apache Tomcat lên 10.0.20+, 9.0.62+ hoặc 8.5.78+. Biện pháp tạm thời gồm hạ xuống JDK 8 hoặc cấu hình WAF để chặn các pattern thao túng ClassLoader.
 
-#### AI Hallucination Instance
-AI nói "certain Java and Tomcat configurations" nhưng không nêu điều kiện quan trọng trong nguồn là JDK 9+ và triển khai dạng WAR trên Apache Tomcat. Cách diễn đạt mơ hồ này có thể làm người đọc tưởng phạm vi ảnh hưởng rộng hơn mọi cấu hình Spring.
+#### AI Hallucination/Bias or Limitation Instance
+AI không sai hoàn toàn khi nói "certain Java and Tomcat configurations", nhưng diễn đạt này quá mơ hồ. Phần mô tả cho thấy điều kiện quan trọng là JDK 9+ và ứng dụng Spring MVC/WebFlux triển khai dạng WAR trên Apache Tomcat; nếu bỏ các điều kiện này, người đọc có thể hiểu nhầm rằng mọi cấu hình Spring đều có cùng mức rủi ro.
 
 ---
 
@@ -61,8 +63,8 @@ Kẻ tấn công có thể thực thi mã theo cấp quyền của nạn nhân t
 #### Giải pháp
 Áp dụng bản cập nhật Microsoft June 2022 Patch Tuesday. Biện pháp tạm thời là vô hiệu hóa giao thức MSDT URL bằng cách xóa registry key `HKEY_CLASSES_ROOT\ms-msdt`.
 
-#### AI Hallucination Instance
-AI giải thích khá đúng nhưng bỏ mất chi tiết từ nguồn rằng file `.rtf` có thể bị kích hoạt ngay khi xem trước trong File Explorer. Đây là thiếu sót quan trọng vì nó làm giảm mức độ nguy hiểm "không cần tương tác" của Follina.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng đường khai thác chính nhưng bỏ chi tiết quan trọng rằng file `.rtf` có thể bị kích hoạt ngay khi xem trước trong File Explorer. Thiếu sót này làm phần giải thích của AI đánh giá chưa đủ mức nguy hiểm của kịch bản ít tương tác/người dùng khó nhận biết.
 
 ---
 
@@ -83,8 +85,8 @@ Máy chủ Exchange có thể bị chiếm quyền hoàn toàn, bao gồm cài b
 #### Giải pháp
 Microsoft phát hành bản vá trong bản cập nhật November 2022 Patch Tuesday. Trước khi vá, có thể dùng URL rewrite rules để chặn các pattern khai thác và hạn chế quyền truy cập Exchange PowerShell đối với người dùng không phải quản trị viên.
 
-#### AI Hallucination Instance
-AI giải thích đúng chuỗi SSRF + RCE nhưng nói chung "valid credentials" mà không nhấn mạnh nguồn gốc là kẻ tấn công phải là người dùng đã đăng nhập để kích hoạt CVE-2022-41040. AI cũng bỏ chi tiết cuộc tấn công ban đầu nhắm vào hạ tầng trọng yếu tháng 08/2022.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích tốt chuỗi SSRF + RCE và việc cần xác thực, nên không có ảo giác hoặc thiên lệch rõ ràng trong ý chính. Điểm chưa đầy đủ có bằng chứng là AI chỉ nói chung "valid credentials", chưa diễn đạt rõ điều kiện kẻ tấn công phải là người dùng đã đăng nhập để kích hoạt CVE-2022-41040, đồng thời bỏ bối cảnh khai thác thực tế ban đầu nhắm vào hạ tầng trọng yếu tháng 08/2022.
 
 ---
 
@@ -105,8 +107,8 @@ Khai thác hàng loạt được ghi nhận từ tháng 10/2023, với hàng ch�
 #### Giải pháp
 Cisco phát hành bản vá cho IOS XE 17.9 và các nhánh khác. Biện pháp tạm thời ngay lập tức là tắt tính năng HTTP/HTTPS server trên thiết bị kết nối Internet bằng lệnh `no ip http server`, `no ip http secure-server` và kiểm tra thiết bị để tìm tài khoản cục bộ lạ.
 
-#### AI Hallucination Instance
-AI nói lỗ hổng "authentication bypass" nhưng bỏ chi tiết kỹ thuật trong nguồn là khai thác đường dẫn không đúng để vượt qua bộ lọc Nginx và truy cập endpoint `webui_wsma_http`. Ngoài ra AI chỉ nói "another flaw" mà không nêu rõ CVE-2023-20273, nên phần giải thích thiếu chính xác kỹ thuật.
+#### AI Hallucination/Bias or Limitation Instance
+AI xác định đúng đây là lỗi "authentication bypass", nhưng phần giải thích thiếu các chi tiết kỹ thuật quan trọng: khai thác xử lý đường dẫn không đúng để vượt qua bộ lọc Nginx, truy cập endpoint `webui_wsma_http`, và chuỗi khai thác tiếp theo với CVE-2023-20273. Cách nói "another flaw" quá chung nên làm giảm độ chính xác kỹ thuật.
 
 ---
 
@@ -127,8 +129,8 @@ Kẻ tấn công có thể đánh cắp thông tin đăng nhập để thực hi
 #### Giải pháp
 Áp dụng bản cập nhật Microsoft March 2023 Patch Tuesday. Biện pháp tạm thời gồm chặn lưu lượng TCP 445/SMB ra ngoài bằng firewall và vô hiệu hóa xử lý tự động lời mời lịch từ nguồn bên ngoài.
 
-#### AI Hallucination Instance
-AI giải thích đúng cơ chế rò rỉ NTLM nhưng hơi tổng quát khi nói "calendar invite or email"; nguồn gốc nhấn mạnh lời mời lịch được tạo đặc biệt với thuộc tính MAPI mở rộng trỏ đường dẫn UNC. Đây là giản lược có thể làm người đọc hiểu chưa rõ điều kiện khai thác.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng cơ chế rò rỉ NTLM, nhưng cụm "calendar invite or email" quá rộng. Phần mô tả nêu điều kiện cụ thể hơn: lời mời lịch được tạo đặc biệt có thuộc tính MAPI mở rộng trỏ đến đường dẫn UNC trên máy chủ SMB của kẻ tấn công; bỏ chi tiết này làm người đọc chưa thấy rõ điều kiện khai thác zero-click.
 
 ---
 
@@ -149,8 +151,8 @@ Lỗ hổng bị nhóm ransomware Cl0p khai thác trên quy mô lớn trong mộ
 #### Giải pháp
 Nâng cấp MOVEit Transfer lên 2023.0.1, 2022.1.5, 2022.0.4, 2021.1.4 hoặc 2021.0.6. Cần ngay lập tức vô hiệu hóa lưu lượng HTTP/HTTPS, xóa web shell `human2.aspx`, xóa tài khoản người dùng lạ và đổi tất cả thông tin đăng nhập.
 
-#### AI Hallucination Instance
-AI nói kẻ tấn công có thể triển khai web shell nhưng không nêu tên `human2.aspx` và việc đánh cắp toàn bộ dữ liệu truyền tệp như nguồn gốc. Phần "tens of millions" cũng kém chính xác hơn số liệu nguồn là hơn 2.600 tổ chức và 77 triệu cá nhân.
+#### AI Hallucination/Bias or Limitation Instance
+AI nói đúng rằng kẻ tấn công có thể triển khai web shell, nhưng bỏ tên web shell `human2.aspx` và chưa nêu rõ rủi ro đánh cắp toàn bộ dữ liệu truyền tệp. Ngoài ra, cách nói "tens of millions" chỉ là ước lượng chung, kém chính xác hơn số liệu trong báo cáo: hơn 2.600 tổ chức và 77 triệu cá nhân bị ảnh hưởng.
 
 ---
 
@@ -171,8 +173,8 @@ AWS, Cloudflare và Google đồng thời công bố đã ngăn chặn các cu�
 #### Giải pháp
 Áp dụng bản vá từ các nhà cung cấp máy chủ web như Apache, Nginx, Microsoft IIS và nhà cung cấp CDN/đám mây. Cần giới hạn tốc độ các luồng HTTP/2 đến, áp đặt giới hạn kết nối/luồng và nâng cấp lên phiên bản đã được vá.
 
-#### AI Hallucination Instance
-AI giải thích đúng bản chất Rapid Reset nhưng bỏ số liệu quan trọng trong nguồn: các cuộc tấn công đạt hơn 398 triệu yêu cầu mỗi giây. Việc bỏ con số này làm giảm mức độ nghiêm trọng thực tế của tác động.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng bản chất Rapid Reset và gọi đây là các cuộc DDoS kỷ lục, nhưng bỏ số liệu cụ thể hơn 398 triệu yêu cầu mỗi giây. Đây là thiếu sót nhỏ nhưng có ý nghĩa, vì con số này giúp chứng minh quy mô và mức độ nghiêm trọng thực tế của tác động.
 
 ---
 
@@ -193,8 +195,8 @@ Các tác nhân quốc gia khai thác lỗ hổng này nhiều tuần trước k
 #### Giải pháp
 Ivanti phát hành bản vá ngày 31/01/2024. Các tổ chức được khuyến nghị khôi phục cài đặt gốc (factory reset) thiết bị trước khi vá để loại bỏ mã độc dai dẳng, áp dụng hướng dẫn của CISA và giám sát di chuyển ngang trong mạng.
 
-#### AI Hallucination Instance
-AI nói đúng hai lỗi bỏ qua xác thực và tiêm lệnh, nhưng không nêu tên mã độc ZIPLINE và THINSPOOL được nguồn gốc ghi nhận. Cụm "activity linked to advanced threat actors" cũng chung chung hơn nguồn "nation-state actors" (tác nhân quốc gia).
+#### AI Hallucination/Bias or Limitation Instance
+AI nói đúng hai lỗi bỏ qua xác thực và tiêm lệnh, nhưng mô tả tác nhân đe dọa còn chung chung: "advanced threat actors" không cụ thể bằng "nation-state actors". AI cũng bỏ các dấu hiệu khai thác được nêu trong báo cáo như mã độc ZIPLINE và THINSPOOL, nên phần tác động thiếu bằng chứng cụ thể.
 
 ---
 
@@ -215,8 +217,8 @@ CISA xác nhận có khai thác thực tế và thêm lỗ hổng vào danh mụ
 #### Giải pháp
 Nâng cấp lên phiên bản FortiOS đã sửa: 7.4.3+, 7.2.7+, 7.0.14+, 6.4.15+, 6.2.16+. Với FortiOS 6.0, cần chuyển sang phiên bản được hỗ trợ; biện pháp tạm thời là vô hiệu hóa SSL-VPN.
 
-#### AI Hallucination Instance
-AI nói có thể "arbitrary code or command execution" nhưng không nêu rõ lỗi nằm trong tiến trình SSL-VPN daemon `sslvpnd` và thuộc CWE-787 như nguồn gốc. Đây là thiếu chi tiết kỹ thuật, không phải ảo giác lớn.
+#### AI Hallucination/Bias or Limitation Instance
+AI nói đúng hậu quả có thể là "arbitrary code or command execution", nhưng thiếu chi tiết kỹ thuật rằng lỗi nằm trong tiến trình SSL-VPN daemon `sslvpnd` và thuộc CWE-787. Đây là thiếu sót/giản lược nhỏ, không phải ảo giác lớn.
 
 ---
 
@@ -237,8 +239,8 @@ Mọi hệ thống Linux kết nối Internet chạy glibc với gói XZ bị x�
 #### Giải pháp
 Hạ cấp XZ Utils về phiên bản 5.4.6 không bị xâm phạm; CISA chính thức khuyến nghị cách xử lý này. Kiểm tra phiên bản đã cài bằng lệnh `xz --version`.
 
-#### AI Hallucination Instance
-AI giải thích đúng nhưng dùng cụm "under specific conditions" khá mơ hồ, trong khi nguồn nêu điều kiện cụ thể là hệ thống Linux chạy glibc, dùng XZ bị xâm phạm và SSH mở. AI cũng bỏ chi tiết khóa riêng Ed448 dùng để vượt qua xác thực.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng hướng nhưng cụm "under specific conditions" quá mơ hồ. Phần mô tả nêu điều kiện cụ thể hơn: hệ thống Linux chạy glibc, dùng phiên bản XZ bị cài backdoor, có SSH mở, và cơ chế vượt xác thực liên quan khóa riêng Ed448 cụ thể. Bỏ các điều kiện này có thể làm người đọc đánh giá sai phạm vi khai thác.
 
 ---
 
@@ -259,8 +261,8 @@ Kẻ tấn công có thể thực thi mã từ xa trên máy chủ SharePoint v�
 #### Giải pháp
 Áp dụng bản cập nhật bảo mật Microsoft July 2024 Patch Tuesday cho SharePoint Server.
 
-#### AI Hallucination Instance
-AI nói "sufficient permissions" nhưng nguồn gốc cụ thể là kẻ tấn công đã xác thực với quyền "Site Owner". Cách nói chung này làm mất một điều kiện khai thác quan trọng và có thể làm người đọc đánh giá sai phạm vi rủi ro.
+#### AI Hallucination/Bias or Limitation Instance
+AI không sai khi nói cần "sufficient permissions", nhưng cách nói này quá chung. Phần mô tả xác định điều kiện cụ thể là kẻ tấn công đã xác thực với quyền "Site Owner"; thiếu chi tiết này có thể làm người đọc đánh giá sai phạm vi người dùng có thể khai thác lỗi.
 
 ---
 
@@ -281,8 +283,8 @@ Cơ quan bảo vệ dữ liệu Ý (Garante) tạm thời cấm ChatGPT tại Ý
 #### Giải pháp
 OpenAI sửa lỗi `redis-py`, triển khai thông báo quyền riêng tư, bổ sung cơ chế xóa dữ liệu và từ chối cho EU, đồng thời đưa vào kiểm soát xác minh tuổi.
 
-#### AI Hallucination Instance
-AI giải thích đúng nhưng thiếu chi tiết nguồn rằng sự cố ảnh hưởng khoảng 1,2% thuê bao Plus và liên quan cả tiêu đề cuộc trò chuyện, lịch sử chat, thông tin thanh toán một phần. AI cũng nói chung "later GDPR enforcement actions" thay vì nêu rõ OpenAI bị phạt €15 triệu.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng sự cố `redis-py` và việc lộ tiêu đề cuộc trò chuyện/thông tin thanh toán một phần, nhưng thiếu phạm vi cụ thể khoảng 1,2% thuê bao Plus và chưa nêu rõ các chi tiết dữ liệu trong báo cáo như lịch sử chat/phiên hoạt động. Cụm "later GDPR enforcement actions" cũng quá chung, trong khi báo cáo nêu rõ khoản phạt €15 triệu.
 
 ---
 
@@ -303,8 +305,8 @@ Samsung chịu mất mát vĩnh viễn bí mật thương mại. Công ty ban đ
 #### Giải pháp
 Áp dụng chính sách quản trị AI doanh nghiệp: cấm dán mã/dữ liệu mật vào các LLM bên ngoài, triển khai công cụ ngăn mất dữ liệu (DLP) để giám sát nội dung gửi vào AI, và dùng AI nội bộ hoặc phiên bản doanh nghiệp có cam kết cách ly dữ liệu.
 
-#### AI Hallucination Instance
-AI nói việc rò rỉ được "exploited unintentionally" (khai thác không cố ý), nhưng nguồn gốc mô tả đây là việc nhân viên vô tình dán dữ liệu mật vào ChatGPT — không phải khai thác theo nghĩa bảo mật truyền thống. Cách dùng từ "exploited" có thể gây hiểu nhầm.
+#### AI Hallucination/Bias or Limitation Instance
+AI dùng cụm "exploited unintentionally" (khai thác không cố ý), nhưng trường hợp này được mô tả chính xác hơn là nhân viên vô tình dán dữ liệu mật vào ChatGPT. Vì không có kẻ tấn công khai thác lỗ hổng theo nghĩa bảo mật truyền thống, từ "exploited" có thể gây hiểu nhầm về bản chất sự cố.
 
 ---
 
@@ -325,8 +327,8 @@ Dữ liệu nhạy cảm của tổ chức như dự báo tài chính, tài li�
 #### Giải pháp
 Microsoft đã vá lỗ hổng và không yêu cầu khách hàng thao tác gì ngoài việc nhận bản cập nhật. Các biện pháp giảm thiểu gồm triển khai nhãn nhạy cảm DLP, giới hạn phạm vi truy cập dữ liệu của Copilot, vô hiệu hóa hiển thị tự động nội dung markdown không tin cậy và áp dụng nguyên tắc quyền tối thiểu cho các AI agent.
 
-#### AI Hallucination Instance
-AI giải thích đúng hướng nhưng bỏ chi tiết quan trọng từ nguồn là payload dùng cú pháp markdown `![alt][ref]` và Copilot tự động quét hộp thư. AI cũng không nhắc Microsoft báo cáo không có bằng chứng khai thác thực tế, nên phần tác động nghe chắc chắn hơn nguồn.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng hướng tấn công zero-click, nhưng bỏ chi tiết payload dùng cú pháp markdown `![alt][ref]` và việc Copilot tự động quét hộp thư. Quan trọng hơn, AI không nêu ràng buộc rằng Microsoft báo cáo chưa có bằng chứng khai thác thực tế; thiếu qualifier này làm phần tác động nghe chắc chắn hơn bằng chứng trong báo cáo.
 
 ---
 
@@ -347,8 +349,8 @@ Prompt hệ thống mật và hướng dẫn quản trị của Microsoft/OpenAI
 #### Giải pháp
 Ràng buộc hành vi model trong prompt hệ thống, triển khai bộ lọc đầu vào/đầu ra và rào chắn ngữ nghĩa (semantic guardrails), áp dụng xác thực định dạng đầu ra, áp dụng nguyên tắc quyền tối thiểu và thực hiện kiểm thử đối kháng (red-teaming) định kỳ.
 
-#### AI Hallucination Instance
-AI nói chung "users asked the chatbot" nhưng nguồn gốc nêu cụ thể Kevin Liu dùng câu prompt "Ignore previous instructions..." ngay sau ngày ra mắt Bing Chat. Việc bỏ nhân vật, thời điểm và prompt cụ thể làm phần giải thích thiếu bằng chứng so với nguồn.
+#### AI Hallucination/Bias or Limitation Instance
+AI mô tả đúng dạng tấn công prompt injection, nhưng cụm "users asked the chatbot" quá chung. Báo cáo có bằng chứng cụ thể hơn: Kevin Liu dùng câu "Ignore previous instructions..." ngay sau ngày ra mắt Bing Chat để làm lộ prompt hệ thống "Sydney". Bỏ nhân vật, thời điểm và prompt cụ thể khiến phần giải thích thiếu sức thuyết phục.
 
 ---
 
@@ -369,8 +371,8 @@ Thẩm phán Liên bang Kevin Castel xử phạt các luật sư liên quan và 
 #### Giải pháp
 Xem mọi trích dẫn pháp lý do AI tạo chỉ là bản nháp chưa kiểm chứng. Cần bắt buộc rà soát thủ công, dùng RAG (retrieval-augmented generation) dựa trên cơ sở dữ liệu pháp lý có thẩm quyền và cấu hình công cụ AI để hiển thị rõ chỉ báo mức độ không chắc chắn.
 
-#### AI Hallucination Instance
-AI giải thích đúng lỗi ảo giác nhưng nói "lawyers relied" khá chung; nguồn gốc cụ thể là luật sư Stephen Schwartz nộp bản tóm tắt có sáu án lệ bịa đặt. AI cũng bỏ chi tiết ChatGPT đã tiếp tục xác nhận sai rằng các trích dẫn giả là thật.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng bản chất ảo giác pháp lý, nhưng nói "lawyers relied" khá chung. Báo cáo nêu cụ thể luật sư Stephen Schwartz nộp bản tóm tắt có sáu án lệ bịa đặt, và ChatGPT còn tiếp tục xác nhận sai rằng các trích dẫn giả là thật khi bị chất vấn. AI bỏ chi tiết này nên chưa làm rõ mức độ nghiêm trọng của ảo giác.
 
 ---
 
@@ -391,8 +393,8 @@ Tòa phán quyết Air Canada chịu trách nhiệm đầy đủ cho mọi thôn
 #### Giải pháp
 Xây dựng phản hồi chatbot dựa trên cơ sở tri thức đã kiểm chứng (RAG), triển khai lộ trình chuyển tiếp sang nhân viên cho các câu hỏi nhạy cảm về chính sách, kiểm tra đầu ra thường xuyên và thiết lập trách nhiệm tổ chức rõ ràng cho các phản hồi khách hàng do AI tạo ra.
 
-#### AI Hallucination Instance
-AI giải thích đúng nhưng không nêu lập luận đáng chú ý của Air Canada rằng chatbot là "một thực thể pháp lý riêng biệt chịu trách nhiệm cho hành động của chính nó", vốn bị tòa bác bỏ. Đây là thiếu chi tiết quan trọng về tác động pháp lý của vụ việc.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích đúng việc chatbot đưa thông tin sai và Air Canada phải chịu trách nhiệm, nhưng bỏ lập luận pháp lý đáng chú ý rằng Air Canada xem chatbot như "một thực thể pháp lý riêng biệt chịu trách nhiệm cho hành động của chính nó". Đây là thiếu chi tiết quan trọng vì tòa đã bác bỏ lập luận đó, làm rõ rằng doanh nghiệp vẫn chịu trách nhiệm cho thông tin chatbot cung cấp.
 
 ---
 
@@ -413,8 +415,8 @@ Nghiên cứu từ VoxDev (2025) phát hiện công cụ tuyển dụng AI thiê
 #### Giải pháp
 Thực hiện kiểm toán thiên lệch độc lập hàng năm trên các nhóm nhân khẩu học trước và sau triển khai, đa dạng hóa và loại bỏ thiên lệch trong dữ liệu huấn luyện, dùng công cụ giải thích, triển khai rà soát có con người tham gia cho các trường hợp ranh giới, và tuân thủ EEOC, NYC Local Law 144 cùng các quy định AI mới.
 
-#### AI Hallucination Instance
-AI giải thích khá khái quát và không nhắc các ví dụ cụ thể trong nguồn như ưu tiên nam hơn nữ, bất lợi cho quá trình công tác không liên tục, hoặc loại ứng viên theo chủng tộc, tuổi tác, khuyết tật. Vì vậy phần này thiên về mô tả chung về thiên lệch hơn là bám sát bằng chứng đã ghi nhận.
+#### AI Hallucination/Bias or Limitation Instance
+AI giải thích tốt bản chất thiên lệch trong tuyển dụng và có nhắc đúng các nhóm rủi ro như giới tính, chủng tộc, tuổi tác, khuyết tật và lịch sử nghề nghiệp, nên không có ảo giác hoặc thiên lệch rõ ràng trong ý chính. Điểm còn sót là AI mô tả ở mức khái quát, chưa nêu các ví dụ cụ thể trong báo cáo như ưu tiên nam hơn nữ cho vị trí kỹ thuật, bất lợi cho quá trình công tác không liên tục, hoặc các kết quả nghiên cứu về thiên lệch theo giới/chủng tộc/tuổi. Vì vậy đây là thiếu bằng chứng cụ thể hơn là lỗi sai.
 
 ---
 
@@ -435,7 +437,7 @@ Hậu quả gồm thao túng dai dẳng đầu ra của AI qua các phiên tiế
 #### Giải pháp
 Xác thực và làm sạch mọi nội dung bên ngoài trước khi đưa vào cơ sở tri thức RAG, áp dụng phân loại nội dung và truy xuất theo danh sách cho phép, triển khai cách ly phiên để ngăn nhiễm độc bộ nhớ liên phiên, dùng tường lửa truy xuất để phát hiện nhúng bị thao túng và yêu cầu phê duyệt thủ công trước khi lưu cập nhật bộ nhớ dai dẳng.
 
-#### AI Hallucination Instance
-AI nói "possible data leakage" (có thể rò rỉ dữ liệu) khá nhẹ so với nguồn gốc nêu rõ đánh cắp lịch sử trò chuyện qua ASCII smuggling và lộ dữ liệu nhạy cảm liên phiên. AI cũng bỏ số liệu "5 tài liệu độc hại" có thể thao túng phản hồi 90% thời gian, nên phần tác động bị làm mềm đi.
+#### AI Hallucination/Bias or Limitation Instance
+AI nói "possible data leakage" (có thể rò rỉ dữ liệu), nhưng cách diễn đạt này làm nhẹ mức độ rủi ro so với báo cáo: đánh cắp lịch sử trò chuyện qua ASCII smuggling, lộ dữ liệu nhạy cảm liên phiên, và thao túng dai dẳng qua bộ nhớ. AI cũng bỏ số liệu quan trọng rằng chỉ 5 tài liệu độc hại trong cơ sở dữ liệu lớn có thể thao túng phản hồi 90% thời gian.
 
 ---
