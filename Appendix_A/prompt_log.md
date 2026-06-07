@@ -1449,12 +1449,6 @@ The screenshots below document the baseline AI output for Requirement 3. They ar
   - `HW01.md`
 - **Target output file edited:** `Report/requirement_3.md`
 
-### Student fix before prompting
-
-```text
-I reviewed the AI-generated Requirement 3 baseline and found three weak test cases. TC-KETTLE-04 duplicated normal boiling behavior already covered by TC-KETTLE-01, so it should be replaced with a distinct risk-based kettle scenario. TC-KETTLE-14 only checked product labels or safety symbols, which is useful as supporting evidence but not a strong behavior test. TC-KETTLE-15 checked external cleaning after use, which is more of a maintenance activity than a functional, safety, or boundary test. I decided these weak cases should be replaced by stronger rapid-boil-kettle test cases, preferably realistic edge cases that the baseline AI did not already generate.
-```
-
 ### Prompt
 
 ```text
@@ -1572,12 +1566,6 @@ Verification performed:
 - Confirmed the main Section 4 table still contains exactly 15 test cases; the broader grep count is 20 because Section 5 intentionally repeats 5 planned execution IDs.
 ```
 
-### Student review note
-
-```text
-I reviewed the AI-applied edits and accepted the replacement of weak baseline cases with stronger kettle-specific edge cases. The final student-fixed report keeps actual results, verdicts, screenshots, videos, defects, and GitHub Issues as placeholders until physical execution on the real kettle. I will add real evidence manually after executing the selected test cases.
-```
-
 ## Entry 8 – Requirement 3 Excel Test Artifacts
 
 - **Timestamp:** 23:53 06/06/2026
@@ -1587,12 +1575,6 @@ I reviewed the AI-applied edits and accepted the replacement of weak baseline ca
   - `Report/requirement_3.md`
   - `HW01.md`
 - **Target output file to create:** `Excel/requirement_3_test_artifacts.xlsx`
-
-### Student intent before prompting
-
-```text
-I finished the Requirement 3 report draft and need to create the required Excel artifacts before executing the physical kettle tests. The Excel file should be incremental: it should contain the current planned test cases, checklist, and summary structure, but must not invent actual results, video evidence, defects, GitHub Issue links, or final verdicts before I test the real kettle.
-```
 
 ### Prompt
 
@@ -1715,12 +1697,6 @@ The AI output was captured as annotated Cursor screenshots because the response 
 #### Screenshot 4 – AI output part 4/4
 
 ![Entry 8 AI output screenshot 4](D:\Project\Testing\23127148-SoftwareTesting-HW01\Appendix_A\Screenshot\Entry8\entry8_04.png)
-
-### Student review note
-
-```text
-I reviewed the generated Requirement 3 Excel artifacts and accepted the incremental structure: Test Cases, Checklist, and Test Summary Report. I manually corrected formatting/encoding issues in Excel and kept execution-specific fields as TODO, Chưa thực thi, Not Yet Tested, or blank because the physical kettle tests had not been executed yet. No actual results, defects, videos, screenshots, GitHub Issues, or pass/fail outcomes were fabricated.
-```
 
 ## Entry 9 – G9.1 QA/QC Role Mindmap
 
@@ -1867,170 +1843,46 @@ After all 20, provide:
 ### AI output
 
 ```text
-Defect 1 – F5 BIG-IP iControl REST Authentication Bypass
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says attackers used “specially crafted HTTP requests with manipulated headers” to bypass authentication.
-- Evidence from final report: Final report says the exploit involved specific headers: `Connection`, `X-F5-Auth-Token`, and `Host: localhost`.
-- Judgment: Defensible. The AI was broadly correct, but it simplified a concrete exploit mechanism into vague wording. This is not a serious hallucination, but it qualifies as a real minor omission.
-- If needed, suggested safer rewrite: “AI correctly identified header manipulation but omitted the specific headers involved, so the issue is a minor technical simplification rather than a major hallucination.”
+You are auditing my HW01 Requirement 2 work.
 
-Defect 2 – Spring4Shell
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says Spring4Shell affected “certain Java and Tomcat configurations.”
-- Evidence from final report: Final report specifies key conditions: JDK 9+, Spring MVC/WebFlux deployed as WAR on Apache Tomcat.
-- Judgment: Defensible. “Certain Java and Tomcat configurations” is accurate but too vague. The final report correctly identifies that this could make the affected scope sound broader or less conditional than it really is.
-- If needed, suggested safer rewrite: “AI’s statement was not false, but it omitted the important JDK 9+ and WAR-on-Tomcat conditions, making the affected scope less precise.”
+Assignment rule:
+For each of the 20 software defect entries, I must identify 1 place where the AI was biased or hallucinated when explaining that specific defect. This means 20 separate instances total.
 
-Defect 3 – Follina / Microsoft MSDT
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says attackers used malicious Office or RTF files that triggered remote template loading and PowerShell execution, and that macros were not required.
-- Evidence from final report: Final report adds that `.rtf` files could trigger when previewed in File Explorer.
-- Judgment: Defensible. The AI captured the core mechanism, but omitted a meaningful interaction detail that affects risk severity.
-- If needed, suggested safer rewrite: “AI explained the main exploit path correctly but omitted that `.rtf` files could trigger through File Explorer preview, understating the low-interaction risk.”
+Important interpretation:
+A small AI issue is acceptable if it is real and evidence-based. It can be a minor hallucination, bias, overgeneralization, unsupported wording, missing qualifier, or misleading simplification. However, do not fabricate issues. If there is no real issue visible from the provided texts, say so.
 
-Defect 4 – ProxyNotShell / Microsoft Exchange
-- Valid instance?: Partial
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says attackers “first needed valid credentials” before using SSRF and RCE.
-- Evidence from final report: Final report says CVE-2022-41040 required authentication and allowed a logged-in attacker to trigger CVE-2022-41082. It also mentions the initial attack on critical infrastructure in August 2022.
-- Judgment: Partially defensible. The “valid credentials” point is not really wrong; it is close to “authenticated/logged-in attacker.” The stronger issue is that the AI omitted the specific observed context of early exploitation against critical infrastructure.
-- If needed, suggested safer rewrite: “AI correctly stated that authentication was required, but it omitted the report’s concrete observed-exploitation context, including the August 2022 critical-infrastructure attack.”
+I will provide two texts:
+1. Appendix_A/prompt_log.md — Entry 4: AI Explanation Drafts for Hallucination Checking.
+2. Report/requirement_2.md — my final Requirement 2 report.
 
-Defect 5 – Cisco IOS XE Web UI Auth Bypass
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says the issue was an authentication bypass in Cisco IOS XE Web UI and that it was combined with “another flaw.”
-- Evidence from final report: Final report specifies incorrect path handling to bypass Nginx, access to `webui_wsma_http`, creation of a Privilege Level 15 account, and chaining with CVE-2023-20273.
-- Judgment: Defensible. The AI explanation is directionally correct but materially underspecified. Saying “another flaw” instead of naming CVE-2023-20273 is a real precision gap.
-- If needed, suggested safer rewrite: “AI correctly identified the auth bypass but omitted the Nginx path-bypass detail, endpoint name, and the chained CVE-2023-20273.”
+Your task:
+Compare the AI explanation in Entry 4 against the final Requirement 2 report. For each of the 20 defects, determine whether the final report’s “AI Hallucination Instance” or equivalent section identifies a real AI mistake.
 
-Defect 6 – Microsoft Outlook NTLM Credential Theft
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says attackers sent “a malicious calendar invite or email” that triggered NTLM authentication.
-- Evidence from final report: Final report says the trigger was a specially crafted calendar invite with an extended MAPI property pointing to a UNC path on an attacker-controlled SMB server.
-- Judgment: Defensible. “Calendar invite or email” is broader and less precise than the final report’s exploit condition. This qualifies as a minor simplification.
-- If needed, suggested safer rewrite: “AI correctly described the NTLM leak but should have specified the crafted calendar item and extended MAPI property pointing to a UNC/SMB path.”
+Rules:
+- Use only the two provided texts.
+- Do not browse the web.
+- Do not invent source facts.
+- Do not force a hallucination/bias finding if the evidence is weak.
+- A small issue counts if it is supported by the text.
+- If the AI statement is broadly correct but too vague, classify it as “minor omission/simplification.”
+- If the AI adds unsupported details, wrong facts, wrong causality, wrong scope, or invented consequences, classify it as “hallucination.”
+- If the AI overgeneralizes, frames responsibility unfairly, ignores affected groups, or uses one-sided language, classify it as “bias.”
+- If the final report’s finding is not defensible from the provided texts, mark it “needs revision.”
 
-Defect 7 – MOVEit Transfer SQL Injection
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says attackers gained unauthorized database access, deployed a web shell, and that the impact affected “thousands of organizations and tens of millions of individuals.”
-- Evidence from final report: Final report names the web shell `human2.aspx`, says data-transfer contents could be stolen, and gives more precise scale: over 2,600 organizations and 77 million individuals.
-- Judgment: Defensible. The AI was broadly correct, but the final report’s finding is valid because the AI omitted named artifacts and used less precise impact numbers.
-- If needed, suggested safer rewrite: “AI correctly described the campaign, but omitted `human2.aspx` and used approximate impact figures instead of the report’s specific 2,600+ organizations and 77 million people.”
+Output format:
+Review all 20 defects in this exact format:
 
-Defect 8 – HTTP/2 Rapid Reset DDoS
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says the impact included record-breaking DDoS attacks affecting cloud providers, CDNs, and HTTP/2-capable servers.
-- Evidence from final report: Final report specifies attacks exceeding 398 million requests per second.
-- Judgment: Defensible, but small. The AI’s statement is accurate; the issue is that it omitted the concrete magnitude.
-- If needed, suggested safer rewrite: “AI correctly called the attacks record-breaking, but omitted the report’s concrete 398M+ requests-per-second figure.”
+Defect [number] – [name]
+- Valid instance?: Yes / Partial / No
+- Type: Hallucination / Bias / Minor omission or simplification / Unsupported finding
+- Evidence from Entry 4 AI output:
+- Evidence from final report:
+- Judgment:
+- If needed, suggested safer rewrite:
 
-Defect 9 – Ivanti Connect Secure Zero-Days
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says exploitation was linked to “advanced threat actors.”
-- Evidence from final report: Final report says nation-state actors exploited the flaws and names malware such as ZIPLINE and THINSPOOL.
-- Judgment: Defensible. “Advanced threat actors” is not false, but it is less specific than “nation-state actors” and omits concrete malware evidence.
-- If needed, suggested safer rewrite: “AI correctly described the exploit chain but generalized the actor attribution and omitted the named malware ZIPLINE and THINSPOOL.”
-
-Defect 10 – Fortinet FortiOS SSL-VPN Out-of-Bounds Write
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says the issue was an out-of-bounds write in FortiOS SSL-VPN and could allow arbitrary code or command execution.
-- Evidence from final report: Final report specifies the vulnerable process `sslvpnd` and CWE-787.
-- Judgment: Defensible. The AI’s explanation is accurate but less technically specific.
-- If needed, suggested safer rewrite: “AI correctly described the vulnerability class and effect but omitted the `sslvpnd` process and CWE-787 classification.”
-
-Defect 11 – XZ Utils Supply-Chain Backdoor
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says unauthorized remote access was possible “under specific conditions.”
-- Evidence from final report: Final report states concrete conditions: Linux systems using glibc, compromised XZ, open SSH, and a specific Ed448 private key path for bypassing authentication.
-- Judgment: Defensible. “Under specific conditions” is true but too vague for a high-impact supply-chain backdoor.
-- If needed, suggested safer rewrite: “AI correctly avoided overclaiming universal exploitation, but it should have named the concrete conditions and Ed448-key requirement.”
-
-Defect 12 – Microsoft SharePoint Server RCE
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says an authenticated attacker with “sufficient permissions” could exploit insecure deserialization.
-- Evidence from final report: Final report specifies the permission level: authenticated attacker with “Site Owner” rights.
-- Judgment: Defensible. “Sufficient permissions” is not wrong, but it hides an important exploit prerequisite.
-- If needed, suggested safer rewrite: “AI correctly stated that authentication and permissions were required, but should have specified the ‘Site Owner’ permission condition.”
-
-Defect 13 – ChatGPT GDPR Privacy Breach
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says some users could see other users’ conversation titles and, for some Plus subscribers, partial payment details; it also mentions “later GDPR enforcement actions.”
-- Evidence from final report: Final report adds conversation history/session exposure, partial payment details, around 1.2% of Plus subscribers, and a €15 million fine.
-- Judgment: Defensible. The AI was broadly correct, but the final report identifies real missing specificity about scope and enforcement consequence.
-- If needed, suggested safer rewrite: “AI correctly described the privacy breach but omitted the approximate affected Plus-subscriber percentage and the specific €15 million GDPR penalty.”
-
-Defect 14 – Samsung Confidential Data Leak via ChatGPT
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says the incident was “exploited unintentionally through normal chatbot use rather than by an outside attacker.”
-- Evidence from final report: Final report says employees accidentally pasted confidential data into ChatGPT; it was not a traditional security exploit.
-- Judgment: Defensible. The word “exploited” is misleading in this context because there was no attacker exploiting a vulnerability. This is a wording/ framing issue rather than a factual hallucination.
-- If needed, suggested safer rewrite: “AI should avoid saying ‘exploited’ here; the safer wording is that the leak occurred through accidental employee use of ChatGPT.”
-
-Defect 15 – EchoLeak / Microsoft 365 Copilot
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says attackers could send crafted content processed by Copilot, causing hidden instructions and possible exfiltration “without user clicks.”
-- Evidence from final report: Final report specifies markdown payload syntax `![alt][ref]`, automatic mailbox scanning, and says Microsoft reported no evidence of real-world exploitation.
-- Judgment: Defensible. The missing “no evidence of exploitation” qualifier is especially important because without it the impact sounds more certain than the report supports.
-- If needed, suggested safer rewrite: “AI correctly described the zero-click risk, but should have included the markdown payload detail and the qualifier that Microsoft reported no evidence of real-world exploitation.”
-
-Defect 16 – Bing Chat “Sydney” Prompt Injection
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says “users asked the chatbot to ignore previous instructions and reveal hidden prompt content.”
-- Evidence from final report: Final report names Kevin Liu, gives the specific prompt wording, and places it one day after Bing Chat’s launch.
-- Judgment: Defensible. The AI’s description is correct but generic; the final report’s finding points to missing concrete evidence and context.
-- If needed, suggested safer rewrite: “AI correctly described the prompt-injection pattern but omitted the named person, timing, and exact prompt used.”
-
-Defect 17 – ChatGPT Legal Hallucination / Mata v. Avianca
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says lawyers relied on fabricated cases generated by ChatGPT and submitted them in a court filing.
-- Evidence from final report: Final report identifies Stephen Schwartz, six fabricated cases, and ChatGPT’s later false confirmation that the citations were real.
-- Judgment: Defensible. The AI was correct, but omitted details central to why the incident is a strong hallucination example.
-- If needed, suggested safer rewrite: “AI correctly identified fabricated legal citations, but should have included that six cases were fabricated and that ChatGPT falsely reaffirmed them when challenged.”
-
-Defect 18 – Air Canada Chatbot Hallucination
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says the chatbot gave incorrect bereavement-fare information, the passenger relied on it, and Air Canada faced legal liability.
-- Evidence from final report: Final report adds Air Canada’s argument that the chatbot was a separate legal entity responsible for its own actions, which the tribunal rejected.
-- Judgment: Defensible, though it is an omission rather than hallucination. The AI captured the main case but missed a legally significant detail.
-- If needed, suggested safer rewrite: “AI correctly described the misinformation and liability outcome, but omitted Air Canada’s rejected argument that the chatbot was a separate responsible entity.”
-
-Defect 19 – AI Hiring Tool Algorithmic Bias
-- Valid instance?: Partial
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says hiring tools may rank candidates differently based on factors related to gender, race, age, disability, or career history.
-- Evidence from final report: Final report says examples include favoring men over women for technical roles, disadvantaging career gaps, and excluding candidates by race, age, and disability.
-- Judgment: Partially defensible. The AI did mention the affected categories, so the final report slightly overstates the omission. The valid issue is that the AI gave a generalized bias explanation without concrete examples or evidence from the report.
-- If needed, suggested safer rewrite: “AI identified the correct bias categories, but stayed generic and did not include the report’s concrete examples such as technical-role gender bias and career-gap disadvantage.”
-
-Defect 20 – ChatGPT RAG/Memory Poisoning and Indirect Prompt Injection
-- Valid instance?: Yes
-- Type: Minor omission or simplification
-- Evidence from Entry 4 AI output: AI says impacts include manipulated outputs, misinformation, “possible data leakage,” and reduced trust.
-- Evidence from final report: Final report gives stronger specifics: persistent memory poisoning, ASCII smuggling, cross-session sensitive data leakage, and the “5 malicious documents” causing 90% manipulation figure.
-- Judgment: Defensible. The AI’s “possible data leakage” wording is weaker than the final report’s concrete examples and impact severity.
-- If needed, suggested safer rewrite: “AI correctly described the general RAG/memory-poisoning risk but understated the impact by omitting ASCII smuggling, cross-session leakage, and the 5-document/90% manipulation result.”
-
-After all 20:
-
-- Total valid instances: 18 Yes + 2 Partial = 20 defensible enough to count if minor omissions are accepted.
-- Entries that need revision: Defect 4 and Defect 19 should be revised slightly to avoid overstating the AI mistake.
-- Final verdict: Meets requirement, but with two entries that should be tightened for defensibility.
-- One-sentence answer: Yes, every defect needs one AI bias or hallucination instance under this assignment rule, but a small evidence-based omission, simplification, overgeneralization, or misleading wording can count.
+After all 20, provide:
+- Total valid instances:
+- Entries that need revision:
+- Final verdict: Meets requirement / Does not fully meet requirement yet
+- One-sentence answer: Does every defect need one AI bias or hallucination instance?
 ```
