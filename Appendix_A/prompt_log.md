@@ -620,32 +620,6 @@ Rules:
 ```text
 Created Report/requirement_2.md with 20 Vietnamese software defect entries based only on the Requirement 2 Perplexity source data in Appendix_A/prompt_log.md.
 
-
-#### AI Hallucination Instance
-TODO – Ghi chú: sinh viên tự điền sau khi hỏi AI giải thích defect này và so sánh với nguồn gốc
-
----
-
-### Defect 20 – ChatGPT RAG/Memory Poisoning & Indirect Prompt Injection
-
-- Năm công bố: 2024
-- CVE: N/A
-- Nguồn: https://www.promptfoo.dev/blog/rag-poisoning/ / https://genai.owasp.org/llmrisk/llm01-prompt-injection/
-- Mức độ nghiêm trọng: High
-- Liên quan AI/LLM: YES
-
-#### Mô tả
-Tháng 09/2024, researchers chứng minh long-term memory feature của ChatGPT có thể bị exploit qua indirect prompt injection: user bị lừa truy cập webpage hoặc đọc document chứa hidden instructions khiến ChatGPT lưu persistent false “memory”, ví dụ fabricated medical condition hoặc malicious instruction, rồi ảnh hưởng mọi future conversations. Trong RAG systems nói chung, research cho thấy chỉ cần 5 maliciously crafted documents trong database hàng triệu tài liệu cũng có thể manipulate AI responses 90% of the time.
-
-#### Hậu quả
-Hậu quả gồm persistent manipulation của AI-generated outputs qua future sessions, exfiltration of conversation history qua ASCII smuggling, exposure of sensitive cross-session data và phát tán healthcare, financial hoặc security misinformation ở quy mô lớn. December 2024 Guardian investigation xác nhận ChatGPT's search feature vulnerable với attack class này trong production.
-
-#### Giải pháp
-Validate và sanitize mọi external content trước khi ingest vào RAG knowledge bases, áp dụng content classification và allowlist-based retrieval, implement session isolation để ngăn cross-session memory poisoning, dùng retrieval firewalls để detect manipulated embeddings và yêu cầu human approval trước khi commit persistent memory updates.
-
-#### AI Hallucination Instance
-TODO – Ghi chú: sinh viên tự điền sau khi hỏi AI giải thích defect này và so sánh với nguồn gốc
-
 The generated file includes the required format for every defect:
 - Defect title and number
 - Năm công bố
