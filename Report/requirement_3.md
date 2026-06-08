@@ -65,11 +65,16 @@ Các defect dưới đây được ghi nhận từ 5 test cases quay video trong
 
 ## 7. GitHub Issues evidence
 
-- GitHub repository link: [STUDENT TODO: thêm link GitHub repository]
-- Screenshot of GitHub Issues page showing student username: [STUDENT TODO: thêm screenshot sau khi có repository/issues]
-- GitHub Issue links for confirmed defects: [STUDENT TODO: chỉ thêm link issue sau khi defect thật được xác nhận]
+- GitHub repository link: https://github.com/NguyenAn0808/23127148-SoftwareTesting-HW01
+- Screenshot of GitHub Issues page showing student username: ![GitHub Issues page showing NguyenAn0808](../Requirement_3/github_issues_page.png)
+- GitHub Issue links for confirmed defects:
+  - DEF-KETTLE-01: https://github.com/NguyenAn0808/23127148-SoftwareTesting-HW01/issues/1
+  - DEF-KETTLE-02: https://github.com/NguyenAn0808/23127148-SoftwareTesting-HW01/issues/2
+  - DEF-KETTLE-03: https://github.com/NguyenAn0808/23127148-SoftwareTesting-HW01/issues/3
+  - DEF-KETTLE-04: https://github.com/NguyenAn0808/23127148-SoftwareTesting-HW01/issues/4
+  - DEF-KETTLE-05: https://github.com/NguyenAn0808/23127148-SoftwareTesting-HW01/issues/5
 
-GitHub Issues chỉ nên được tạo sau khi sinh viên đã thực thi test trên thiết bị thật và xác nhận có defect thực tế. Không tạo GitHub Issue cho placeholder hoặc lỗi chưa được xác nhận.
+GitHub Issues đã được tạo cho tất cả defect được xác nhận khi kiểm thử trên thiết bị thật. Ảnh chụp trang Issues hiển thị repository, danh sách issue và username GitHub của sinh viên.
 
 ## 8. AI-missed edge cases
 
