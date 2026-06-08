@@ -1,26 +1,22 @@
 No.,Checklist ID,Category,Checklist Item,Related Test Case ID,Status,Evidence Needed,Notes
-1,CHK-KETTLE-01,Nh?n d?ng thi?t b?,Ch?p ?nh nh?n d?ng thi?t b? cùng th? sinh viên,T?t c?,TODO,?nh ch?p ?m và th? sinh viên trong cùng khung hình,B?t bu?c b? sung tr??c khi n?p cu?i cùng; source report v?n còn STUDENT TODO.
-2,CHK-KETTLE-02,Nh?n d?ng thi?t b?,Ghi nh?n brand/model/year/serial c?a thi?t b?,T?t c?,TODO,Ghi chú trong report ho?c Excel,Source report ?ã ghi Brand Comet; Model CM8215; Year 12/2024; Serial 001H****0201. C?n ??i chi?u l?i v?i ?nh thi?t b? tr??c khi n?p.
-3,CHK-KETTLE-03,Chu?n b? an toàn,Khu v?c ki?m th? khô ráo và an toàn,T?t c?,TODO,?nh khu v?c setup ho?c ghi chú xác nh?n,Xác nh?n m?t bàn và khu v?c xung quanh khô ráo tr??c khi c?p ?i?n.
-4,CHK-KETTLE-04,Chu?n b? an toàn,Ki?m tra ngo?i quan ?m và ?? tr??c khi c?p ?i?n,TC-KETTLE-06; TC-KETTLE-13,TODO,?nh/video ho?c ghi chú ki?m tra ngo?i quan,Th?c hi?n tr??c khi c?m ?i?n.
-5,CHK-KETTLE-05,Chu?n b? an toàn,Gi? m?c n??c trong ph?m vi an toàn,TC-KETTLE-01; TC-KETTLE-03; TC-KETTLE-04; TC-KETTLE-05; TC-KETTLE-06; TC-KETTLE-09; TC-KETTLE-10; TC-KETTLE-11; TC-KETTLE-12; TC-KETTLE-14; TC-KETTLE-15,TODO,?nh/video frame th? hi?n m?c n??c ho?c ghi chú xác nh?n,Không ki?m th? d??i v?ch MIN ho?c v??t v?ch MAX.
-6,CHK-KETTLE-06,Ki?m soát b?ng ch?ng,B?ng ch?ng video ???c gi? d??i 60 giây,Các test case d? ki?n quay video,TODO,Link/file video th? hi?n th?i l??ng d??i 60 giây,Yêu c?u theo Section 5 c?a source report.
-7,CHK-KETTLE-07,Quay video ki?m th?,?ã quay video cho TC-KETTLE-01,TC-KETTLE-01,TODO,Link video d??i 60 giây,Ki?m tra ?un n??c bình th??ng v?i m?c n??c an toàn.
-8,CHK-KETTLE-08,Quay video ki?m th?,?ã quay video cho TC-KETTLE-02,TC-KETTLE-02,TODO,Link video d??i 60 giây,Ki?m tra n?p khi thi?t b? ch?a c?m ?i?n.
-9,CHK-KETTLE-09,Quay video ki?m th?,?ã quay video cho TC-KETTLE-03,TC-KETTLE-03,TODO,Link video d??i 60 giây,Ki?m tra ?m nh?n ?i?n khi ??t ?úng lên ??.
-10,CHK-KETTLE-10,Quay video ki?m th?,?ã quay video cho TC-KETTLE-04,TC-KETTLE-04,TODO,Link video d??i 60 giây,AI-missed edge case; ch? nh?c ?m kh?i ?? b?ng tay c?m và thao tác an toàn.
-11,CHK-KETTLE-11,Quay video ki?m th?,?ã quay video cho TC-KETTLE-05,TC-KETTLE-05,TODO,Link video d??i 60 giây,Ki?m tra c? ch? t? ng?t sau khi n??c sôi.
-12,CHK-KETTLE-12,Quay video b? sung n?u th?c thi,Quay video b? sung cho TC-KETTLE-07 n?u th?c thi,TC-KETTLE-07,TODO,Link video d??i 60 giây,Rót ch?m vào ly/c?c ch?u nhi?t; tránh b?ng.
-13,CHK-KETTLE-13,Quay video b? sung n?u th?c thi,Quay video b? sung cho TC-KETTLE-08 n?u th?c thi,TC-KETTLE-08,TODO,Link video d??i 60 giây,Ki?m tra tay c?m sau khi n??c ?ã ?un nóng.
-14,CHK-KETTLE-14,Quay video b? sung n?u th?c thi,Quay video b? sung cho TC-KETTLE-11 n?u th?c thi,TC-KETTLE-11,TODO,Link video d??i 60 giây,Boundary test g?n v?ch MAX; không v??t MAX.
-15,CHK-KETTLE-15,Quay video b? sung n?u th?c thi,Quay video b? sung cho TC-KETTLE-12 n?u th?c thi,TC-KETTLE-12,TODO,Link video d??i 60 giây,Ki?m tra ?? ?n ??nh trên m?t ph?ng khô.
-16,CHK-KETTLE-16,Quay video b? sung n?u th?c thi,Quay ?nh/video b? sung cho TC-KETTLE-13 n?u th?c thi,TC-KETTLE-13,TODO,?nh ho?c link video d??i 60 giây,Ch? quan sát bên ngoài; không tháo thi?t b?.
-17,CHK-KETTLE-17,Ghi nh?n k?t qu? th?c thi,Ghi Actual Result sau m?i test case ?ã th?c thi,T?t c? test case ?ã th?c thi,TODO,Ô Actual Result trong Test Cases.csv,Không ?i?n tr??c khi th?c thi test th?t.
-18,CHK-KETTLE-18,Ghi nh?n k?t qu? th?c thi,Ghi verdict/status sau m?i test case ?ã th?c thi,T?t c? test case ?ã th?c thi,TODO,Ô Status/Verdict trong Test Cases.csv,Ch? ghi verdict/status sau khi ?ã có b?ng ch?ng th?c t?.
-19,CHK-KETTLE-19,Qu?n lý l?i,Ch? ghi defect n?u th?t s? quan sát ???c l?i,B?t k? test case ?ã th?c thi và b? fail,TODO,Mô t? defect và b?ng ch?ng th?c t?,Không xác nh?n defect placeholder là l?i th?t.
-20,CHK-KETTLE-20,Qu?n lý l?i,Ch? t?o GitHub Issue cho defect ?ã xác nh?n,Ch? áp d?ng cho defect ?ã xác nh?n,TODO,Link GitHub Issue,Source report quy ??nh ch? t?o issue sau khi defect ?ã ???c xác nh?n.
-21,CHK-KETTLE-21,B?ng ch?ng GitHub,Ch?p screenshot trang GitHub Issues có username sinh viên,Các GitHub Issues ?ã xác nh?n,TODO,Screenshot,Ch? áp d?ng sau khi có defect/issue ?ã xác nh?n.
-22,CHK-KETTLE-22,B?ng ch?ng AI-missed edge case,?ính kèm screenshot cho các AI-missed edge cases,TC-KETTLE-04; TC-KETTLE-14; TC-KETTLE-15,TODO,Screenshot Edge-case_01.png và Edge-case_02.png,Source report ?ã tham chi?u screenshot; c?n b?o ??m ?nh xu?t hi?n trong gói n?p cu?i cùng.
-23,CHK-KETTLE-23,B?ng ch?ng AI-missed edge case,?ính kèm gi?i thích b?ng v?n b?n cho các AI-missed edge cases,TC-KETTLE-04; TC-KETTLE-14; TC-KETTLE-15,TODO,Ghi chú b?ng v?n b?n trong report/checklist,Source report ?ã có gi?i thích trong Section 8.
-24,CHK-KETTLE-24,C?p nh?t báo cáo t?ng h?p,C?p nh?t Excel Test Summary Report sau khi th?c thi,T?t c?,TODO,File Test Summary Report.csv ?ã c?p nh?t,Ch? c?p nh?t s? li?u sau khi có b?ng ch?ng th?c thi th?t.
-25,CHK-KETTLE-25,Quy t?c d?ng an toàn,D?ng ki?m th? ngay n?u có mùi khét/khói/tia l?a/ti?ng ??ng/d?u hi?u m?t ?n ??nh,Các test case có c?p ?i?n,TODO,Ghi chú n?u quy t?c d?ng an toàn ???c kích ho?t,Không ti?p t?c ki?m th? v?t lý n?u xu?t hi?n d?u hi?u nguy hi?m.
+1,CHK-KETTLE-01,Nh?n d?ng thi?t b?,Ch?p ?nh nh?n d?ng thi?t b? cùng th? sinh viên,T?t c?,Done,?nh ch?p ?m và th? sinh viên trong cùng khung hình,?ã có ?nh thi?t b? kèm th? sinh viên trong report.
+2,CHK-KETTLE-02,Nh?n d?ng thi?t b?,Ghi nh?n brand/model/year/serial c?a thi?t b?,T?t c?,Done,Ghi chú trong report ho?c Excel,Brand Comet; Model CM8215; Year 12/2024; Serial 001H****0201.
+3,CHK-KETTLE-03,Chu?n b? an toàn,Khu v?c ki?m th? khô ráo và an toàn,T?t c?,Done,Ghi chú xác nh?n trong video/report,Khu v?c quay là m?t bàn khô; thao tác trong ?i?u ki?n gia ?ình bình th??ng.
+4,CHK-KETTLE-04,Chu?n b? an toàn,Ki?m tra ngo?i quan ?m và ?? tr??c khi c?p ?i?n,TC-KETTLE-13,Done,Video evidence ho?c ghi chú ki?m th?,?ã quan sát bên ngoài dây ngu?n phích c?m và ??; không tháo thi?t b?.
+5,CHK-KETTLE-05,Chu?n b? an toàn,Gi? m?c n??c trong ph?m vi an toàn,T?t c? test cases có n??c,Done,Ghi chú xác nh?n trong Test Cases sheet,Không ki?m th? d??i v?ch MIN ho?c v??t v?ch MAX.
+6,CHK-KETTLE-06,Ki?m soát b?ng ch?ng,B?ng ch?ng video ???c gi? d??i 60 giây,Các test case có defect,Done,https://youtube.com/shorts/Zn9EdM0ewUM,Video t?ng h?p trên YouTube Shorts dùng chung cho 5 failed test cases.
+7,CHK-KETTLE-07,Th?c thi test case,?ã th?c thi toàn b? 15 test cases,TC-KETTLE-01 ??n TC-KETTLE-15,Done,Test Cases sheet,15/15 test cases ?ã có Actual Result và Status.
+8,CHK-KETTLE-08,Quay video ki?m th?,?ã quay video cho TC-KETTLE-02,TC-KETTLE-02,Done,https://youtube.com/shorts/Zn9EdM0ewUM,Ghi nh?n DEF-KETTLE-01.
+9,CHK-KETTLE-09,Quay video ki?m th?,?ã quay video cho TC-KETTLE-13,TC-KETTLE-13,Done,https://youtube.com/shorts/Zn9EdM0ewUM,Ghi nh?n DEF-KETTLE-02.
+10,CHK-KETTLE-10,Quay video ki?m th?,?ã quay video cho TC-KETTLE-14,TC-KETTLE-14,Done,https://youtube.com/shorts/Zn9EdM0ewUM,Ghi nh?n DEF-KETTLE-03.
+11,CHK-KETTLE-11,Quay video ki?m th?,?ã quay video cho TC-KETTLE-09,TC-KETTLE-09,Done,https://youtube.com/shorts/Zn9EdM0ewUM,Ghi nh?n DEF-KETTLE-04.
+12,CHK-KETTLE-12,Quay video ki?m th?,?ã quay video cho TC-KETTLE-05,TC-KETTLE-05,Done,https://youtube.com/shorts/Zn9EdM0ewUM,Ghi nh?n DEF-KETTLE-05.
+13,CHK-KETTLE-13,Ghi nh?n k?t qu? th?c thi,Ghi Actual Result cho t?t c? test cases ?ã th?c thi,TC-KETTLE-01 ??n TC-KETTLE-15,Done,Ô Actual Result trong Test Cases sheet,15 test cases ?ã có actual result.
+14,CHK-KETTLE-14,Ghi nh?n k?t qu? th?c thi,Ghi verdict/status sau m?i test case ?ã th?c thi,TC-KETTLE-01 ??n TC-KETTLE-15,Done,Ô Status trong Test Cases sheet,10 Passed và 5 Failed.
+15,CHK-KETTLE-15,Qu?n lý l?i,Ch? ghi defect n?u th?t s? quan sát ???c l?i,Các test case failed,Done,Defect log trong report và Excel,5 defects ???c liên k?t v?i evidence video.
+16,CHK-KETTLE-16,Qu?n lý l?i,Ghi ?? 5 defect IDs t??ng ?ng v?i 5 test cases failed,DEF-KETTLE-01 ??n DEF-KETTLE-05,Done,Defect log trong Requirement 3 report,M?i defect có related test case và mô t? rõ actual behavior.
+17,CHK-KETTLE-17,B?ng ch?ng GitHub,T?o GitHub Issue cho defect ?ã xác nh?n,DEF-KETTLE-01 ??n DEF-KETTLE-05,TODO,Link GitHub Issues,Ch? c?p nh?t Done sau khi t?o GitHub Issues th?t.
+18,CHK-KETTLE-18,B?ng ch?ng GitHub,Ch?p screenshot trang GitHub Issues có username sinh viên,Các GitHub Issues ?ã xác nh?n,TODO,Screenshot GitHub Issues,Ch? c?p nh?t Done sau khi có screenshot th?t.
+19,CHK-KETTLE-19,B?ng ch?ng AI-missed edge case,?ính kèm screenshot/gi?i thích cho các AI-missed edge cases,TC-KETTLE-04; TC-KETTLE-14; TC-KETTLE-15,Done,Screenshot Edge-case_01.png và Edge-case_02.png,Report ?ã có ph?n gi?i thích AI-missed edge cases.
+20,CHK-KETTLE-20,C?p nh?t báo cáo t?ng h?p,C?p nh?t Excel Test Summary Report sau khi th?c thi,T?t c?,Done,Test Summary Report sheet,?ã t?ng h?p 15 executed 10 passed 5 failed.
+21,CHK-KETTLE-21,Quy t?c d?ng an toàn,D?ng ki?m th? ngay n?u có mùi khét/khói/tia l?a/ti?ng ??ng/d?u hi?u m?t ?n ??nh,Các test case có c?p ?i?n,Done,Ghi chú an toàn trong report,Không ti?p t?c thao tác n?u có d?u hi?u nguy hi?m; các thao tác gi? ? m?c an toàn.
